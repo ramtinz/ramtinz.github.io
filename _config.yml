@@ -17,16 +17,17 @@ author:
       url: "https://orcid.org/0000-0001-9233-1656"
 
 # Theme Settings
-# theme: jekyll-theme-cayman
-theme: minimal-mistakes-jekyll
-# Minimal Mistakes Configuration
-minimal_mistakes_skin: "air"  # Clean, professional skin
+theme: jekyll-theme-cayman
+
+# Header and Avatar Images
 header:
-  image: "/assets/images/header.jpg"  # Optional header image
+  image: "/assets/images/header-image.jpg"
   overlay_image: true
   caption: "Welcome to my Portfolio"
   caption_url: "https://linkedin.com/in/rzm"
-
+author:
+  avatar: "/assets/images/rzm.jpg"
+  
 # Navigation Links
 nav_links:
   - title: "Home"
