@@ -7,7 +7,7 @@ url: "https://ramtinz.github.io/portfolio"  # Update with your GitHub Pages URL
 baseurl: ""  # leave empty for root
 author: 
   name: "Ramtin Zargari Marandi"
-  avatar: "/img/rzm.jpg"
+  avatar: "img/rzm.jpg"
   social:
     - name: github
       url: "https://github.com/ramtinz"
@@ -22,7 +22,7 @@ theme: jekyll-theme-cayman
 # Minimal Mistakes Configuration
 minimal_mistakes_skin: "air"  # Clean, professional skin
 header:
-  image: "/img/header.jpg"  # Optional header image
+  image: "img/header.jpg"  # Optional header image
   overlay_image: true
   caption: "Welcome to my Portfolio"
   caption_url: "https://linkedin.com/in/rzm"
