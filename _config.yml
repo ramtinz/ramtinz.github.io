@@ -17,10 +17,7 @@ author:
       url: "https://orcid.org/0000-0001-9233-1656"
 
 # Theme Settings
-# theme: "minimal-mistakes-jekyll"
-# Use Remote Theme
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"  # Latest version as of now
-# remote_theme: "mmistakes/minimal-mistakes"  # Only if installing via GitHub Pages
+theme: "minimal-mistakes-jekyll"
 
 # Minimal Mistakes Configuration
 minimal_mistakes_skin: "air"  # Clean, professional skin
