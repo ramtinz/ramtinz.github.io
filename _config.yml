@@ -21,12 +21,12 @@ theme: jekyll-theme-cayman
 
 # Header and Avatar Images
 header:
-  image: "/assets/images/header-image.jpg"
+  image: "assets/images/header-image.jpg"
   overlay_image: true
   caption: "Welcome to my Portfolio"
   caption_url: "https://linkedin.com/in/rzm"
 author:
-  avatar: "/assets/images/rzm.jpg"
+  avatar: "assets/images/rzm.jpg"
   
 # Navigation Links
 nav_links:
