@@ -7,7 +7,7 @@ Welcome to my portfolio repository! I'm Ramtin, a tech-enthusiast and scientist 
 ## 👨‍🔬 About Me
 - **Location:** Copenhagen, Denmark
 - **Current Role:** Postdoctoral Researcher at Rigshospitalet, CHIP Center of Excellence for Health Immunity and Infections.
-- **Contact:** ramtin.zargari AT gmail.com
+- **Contact:** ramtin.zargari AT gmail DOT com
 - **LinkedIn:** [linkedin.com/in/rzm](https://linkedin.com/in/rzm)
 - **GitHub:** [github.com/ramtinz](https://github.com/ramtinz)
 - **ORCID:** [orcid.org/0000-0001-9233-1656](https://orcid.org/0000-0001-9233-1656)
