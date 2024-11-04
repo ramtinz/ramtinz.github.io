@@ -17,7 +17,7 @@ author:
       url: "https://orcid.org/0000-0001-9233-1656"
 
 # Theme Settings
-theme: "minimal-mistakes-jekyll"
+theme: jekyll-theme-cayman
 
 # Minimal Mistakes Configuration
 minimal_mistakes_skin: "air"  # Clean, professional skin
