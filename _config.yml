@@ -18,7 +18,7 @@ author:
 
 # Theme Settings
 # theme: jekyll-theme-cayman
-theme: "minimal-mistakes-jekyll"
+theme: minimal-mistakes-jekyll
 # Minimal Mistakes Configuration
 minimal_mistakes_skin: "air"  # Clean, professional skin
 header:
