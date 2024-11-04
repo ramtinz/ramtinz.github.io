@@ -1,0 +1,84 @@
+# _config.yml for Ramtin's GitHub portfolio
+
+# Basic Site Settings
+title: "Ramtin Zargari Marandi - Portfolio"
+description: "Data Scientist and Researcher specializing in Explainable AI, Biomedical Engineering, and Machine Learning."
+url: "https://ramtinz.github.io/portfolio"  # Update with your GitHub Pages URL
+baseurl: ""  # leave empty for root
+author: 
+  name: "Ramtin Zargari Marandi"
+  avatar: "img/rzm.jpg"
+  social:
+    - name: github
+      url: "https://github.com/ramtinz"
+    - name: linkedin
+      url: "https://linkedin.com/in/rzm"
+    - name: orcid
+      url: "https://orcid.org/0000-0001-9233-1656"
+
+# Theme Settings
+theme: "minimal-mistakes-jekyll"
+remote_theme: "mmistakes/minimal-mistakes"  # Only if installing via GitHub Pages
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-archives
+
+# Minimal Mistakes Configuration
+minimal_mistakes_skin: "air"  # Clean, professional skin
+header:
+  image: "img/header.jpg"  # Optional header image
+  overlay_image: true
+  caption: "Welcome to my Portfolio"
+  caption_url: "https://linkedin.com/in/rzm"
+
+# Navigation Links
+nav_links:
+  - title: "Home"
+    url: "/"
+  - title: "Portfolio"
+    url: "/portfolio/"
+  - title: "Publications"
+    url: "/publications/"
+  - title: "Teaching & Mentorship"
+    url: "/teaching/"
+  - title: "Contact"
+    url: "/contact/"
+
+# Footer and Sidebar Customization
+footer:
+  links:
+    - title: "LinkedIn"
+      url: "https://linkedin.com/in/rzm"
+    - title: "GitHub"
+      url: "https://github.com/ramtinz"
+    - title: "ORCID"
+      url: "https://orcid.org/0000-0001-9233-1656"
+
+# SEO and Social
+# google_analytics: "YOUR-GOOGLE-ANALYTICS-ID"  # Optional
+github_username: "ramtinz"
+
+# Markdown Settings
+markdown: kramdown
+highlighter: rouge
+
+# Permalinks and Pagination
+permalink: pretty
+paginate: 5
+paginate_path: "/page:num/"
+
+# Sitemap
+sitemap:
+  exclude:
+    - /thanks/
+
+# Social Sharing
+share: true
+
+# Include additional files
+include:
+  - "_pages"
+  - "assets"
