@@ -5,10 +5,10 @@ let maxNodes = 50;
 let maxDistance = 150;
 
 function setup() {
-  // Create canvas within the dynamic header
+  // Create a canvas that covers the header element
   let canvas = createCanvas(windowWidth, 300);
   canvas.parent("dynamic-header");
-
+  
   // Initialize nodes with random positions
   for (let i = 0; i < maxNodes; i++) {
     nodes.push({
@@ -21,24 +21,25 @@ function setup() {
 }
 
 function draw() {
-  background(17); // Dark background to match the header
+  background(17); // Match header background color
 
-  // Update and display nodes
+  // Update and display each node
   nodes.forEach((node) => {
+    // Update position
     node.x += node.vx;
     node.y += node.vy;
 
-    // Bounce nodes off edges
+    // Bounce off edges
     if (node.x < 0 || node.x > width) node.vx *= -1;
     if (node.y < 0 || node.y > height) node.vy *= -1;
 
-    // Draw node
+    // Draw node as a small circle
     noStroke();
     fill(255);
     ellipse(node.x, node.y, 5, 5);
   });
 
-  // Draw connections between nearby nodes
+  // Draw connections based on distance
   for (let i = 0; i < nodes.length; i++) {
     for (let j = i + 1; j < nodes.length; j++) {
       let d = dist(nodes[i].x, nodes[i].y, nodes[j].x, nodes[j].y);
@@ -50,7 +51,7 @@ function draw() {
   }
 }
 
-// Resize canvas on window resize
+// Handle window resizing
 function windowResized() {
   resizeCanvas(windowWidth, 300);
 }
