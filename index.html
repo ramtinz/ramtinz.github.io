@@ -3,40 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio with Dynamic Network Header</title>
+  <title>Ramtin Zargari Marandi</title>
   <link rel="stylesheet" href="style.css">
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-  <style>
-    body {
-      font-family: Arial, sans-serif; /* Change to your preferred font */
-      margin: 0;
-      padding: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh; /* Full height of the viewport */
-      background-color: #f4f4f4; /* Optional background color */
-    }
-
-    main {
-      max-width: 800px; /* Maximum width of the content */
-      padding: 20px; /* Padding around the content */
-      text-align: center; /* Center text alignment */
-      font-size: 1.5em; /* Increase font size */
-      background-color: white; /* Background color for main content */
-      border-radius: 8px; /* Rounded corners for aesthetics */
-      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-    }
-
-    header {
-      margin-bottom: 20px; /* Space between header and main content */
-    }
-  </style>
 </head>
 <body>
   <header id="dynamic-header"></header>
-  <main></main>
+  <main>
+    max-width: 800px;
+  </main>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+  <script src="script.js"></script>
   <script>
     document.addEventListener('DOMContentLoaded', function() {
       fetch('README.md')
