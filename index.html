@@ -5,18 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio with Dynamic Network Header</title>
   <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
 <body>
   <header id="dynamic-header"></header>
+  <main></main>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
   <script src="script.js"></script>
   <script>
-  fetch('path/to/your/markdown.md')
-    .then(response => response.text())
-    .then(data => {
-      const html = marked(data);
-      document.querySelector('main').innerHTML = html;
+    document.addEventListener('DOMContentLoaded', function() {
+      fetch('path/to/your/markdown.md')
+        .then(response => response.text())
+        .then(data => {
+          const html = marked.parse(data);
+          document.querySelector('main').innerHTML = html;
+        })
+        .catch(error => {
+          console.error('Error fetching or parsing Markdown:', error);
+          document.querySelector('main').innerHTML = '<p>Error loading content.</p>';
+        });
     });
-</script>
+  </script>
 </body>
 </html>
