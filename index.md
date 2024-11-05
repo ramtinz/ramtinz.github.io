@@ -8,10 +8,11 @@ title: "Home"
 <script src="script.js" defer></script>
 
 <!-- Dynamic Header Section -->
-<header id="dynamic-header"></header>
+<div id="dynamic-header-container">
+  <header id="dynamic-header"></header>
+</div>
 
 <!-- Main Content Section -->
-<main>
-  <!-- Include the README.md content here -->
+<main id="content">
   {% include_relative README.md %}
 </main>
