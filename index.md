@@ -1,5 +1,4 @@
 ---
-layout: default
 title: "Home"
 ---
 
@@ -13,6 +12,6 @@ title: "Home"
 </div>
 
 <!-- Main Content Section -->
-<main id="content">
+<div id="content">
   {% include_relative README.md %}
-</main>
+</div>
