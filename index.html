@@ -39,7 +39,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
   <script>
     document.addEventListener('DOMContentLoaded', function() {
-      fetch('path/to/your/markdown.md')
+      fetch('README.md')
         .then(response => response.text())
         .then(data => {
           const html = marked.parse(data);
