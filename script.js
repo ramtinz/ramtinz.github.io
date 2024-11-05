@@ -4,7 +4,7 @@ let maxDistance = 150;
 
 function setup() {
   // Create a canvas that covers the header element
-  let canvas = createCanvas(windowWidth, 300);
+  let canvas = createCanvas(windowWidth, 200);
   canvas.parent("dynamic-header");
 
   // Initialize nodes with random positions
