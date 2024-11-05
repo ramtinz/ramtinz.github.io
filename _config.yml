@@ -1,7 +1,7 @@
 # Basic Site Settings
 title: "Ramtin Zargari Marandi - Portfolio"
 description: "Data Scientist and Researcher specializing in Explainable AI, Biomedical Engineering, and Machine Learning."
-url: "https://ramtinz.github.io/"  # Update with your GitHub Pages URL
+url: "https://ramtinz.github.io/portfolio"  # Update with your GitHub Pages URL
 baseurl: ""  # leave empty for root
 author: 
   name: "Ramtin Zargari Marandi"
@@ -14,48 +14,12 @@ author:
     - name: orcid
       url: "https://orcid.org/0000-0001-9233-1656"
 
-# Theme Settings
-theme: jekyll-theme-cayman
-
-# Header Image
-header:
-  image: "/assets/images/header.jpg"
-  overlay_image: true
-  caption: "Welcome to my Portfolio"
-  caption_url: "https://linkedin.com/in/rzm"
-
-# Navigation Links
-nav_links:
-  - title: "Home"
-    url: "/"
-  - title: "Portfolio"
-    url: "/portfolio/"
-  - title: "Publications"
-    url: "/publications/"
-  - title: "Teaching & Mentorship"
-    url: "/teaching/"
-  - title: "Contact"
-    url: "/contact/"
-
-# Footer Links
-footer:
-  links:
-    - title: "LinkedIn"
-      url: "https://linkedin.com/in/rzm"
-    - title: "GitHub"
-      url: "https://github.com/ramtinz"
-    - title: "ORCID"
-      url: "https://orcid.org/0000-0001-9233-1656"
-
-# Markdown Settings
-markdown: kramdown
-highlighter: rouge
-
-# Permalinks and Pagination
-permalink: pretty
-
-# Include additional files
+# Include custom CSS and JS files
 include:
   - "style.css"
   - "script.js"
   - "assets"
+
+# Markdown Settings
+markdown: kramdown
+highlighter: rouge
