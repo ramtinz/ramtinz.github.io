@@ -19,7 +19,7 @@ function setup() {
 }
 
 function draw() {
-  background(50); // Match header background color
+  background(17); // Match header background color
 
   // Update and display each node
   nodes.forEach((node) => {
