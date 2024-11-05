@@ -1,3 +1,4 @@
+![Alt Text](assets/images/rzm.jpg)
 Welcome to my portfolio! I'm Ramtin, a tech-enthusiast and scientist with a deep passion for data science and engineering. Over the past five years, I've specialized in machine learning and artificial intelligence, primarily within biomedical research. My work spans diverse areas including microbiome research, oncology, infectious diseases, and patient outcome prediction using genetics and clinical data.
 
 ---
