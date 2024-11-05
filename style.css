@@ -1,6 +1,20 @@
-/* style.css */
+/* Ensure the body is scrollable */
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Avoids horizontal scrolling */
+  height: 100%;
+}
+
+/* Dynamic header style */
 #dynamic-header {
   width: 100%;
-  height: 300px;
-  background: #111; /* dark background for contrast */
+  height: 300px; /* Adjust the height as needed */
+  background: #111; /* Dark background for contrast with animation */
+}
+
+/* Main content styling */
+main {
+  padding: 20px; /* Adds padding around the content */
+  background-color: #f9f9f9; /* Optional: light background for readability */
 }
