@@ -14,7 +14,7 @@
   <script src="script.js"></script>
   <script>
     document.addEventListener('DOMContentLoaded', function() {
-      fetch('path/to/your/markdown.md')
+      fetch('README.md')
         .then(response => response.text())
         .then(data => {
           const html = marked.parse(data);
