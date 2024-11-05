@@ -5,11 +5,11 @@ let maxNodes = 50;
 let maxDistance = 150;
 
 function setup() {
-  // Create a canvas that covers the header element
+  // Create canvas within the dynamic header
   let canvas = createCanvas(windowWidth, 300);
-  canvas.parent("dynamic-header");  // Attach to the header element
+  canvas.parent("dynamic-header");
 
-  // Initialize nodes with random positions and velocities
+  // Initialize nodes with random positions
   for (let i = 0; i < maxNodes; i++) {
     nodes.push({
       x: random(width),
@@ -23,17 +23,16 @@ function setup() {
 function draw() {
   background(17); // Dark background to match the header
 
-  // Update and display each node
+  // Update and display nodes
   nodes.forEach((node) => {
-    // Move node
     node.x += node.vx;
     node.y += node.vy;
 
-    // Bounce off edges
+    // Bounce nodes off edges
     if (node.x < 0 || node.x > width) node.vx *= -1;
     if (node.y < 0 || node.y > height) node.vy *= -1;
 
-    // Draw node as a small circle
+    // Draw node
     noStroke();
     fill(255);
     ellipse(node.x, node.y, 5, 5);
@@ -51,7 +50,7 @@ function draw() {
   }
 }
 
-// Adjust canvas size if the window is resized
+// Resize canvas on window resize
 function windowResized() {
   resizeCanvas(windowWidth, 300);
 }
