@@ -1,20 +1,29 @@
-/* Ensure the body is scrollable */
+/* style.css */
+
+/* Allow scrolling */
 body, html {
   margin: 0;
   padding: 0;
-  overflow-x: hidden; /* Avoids horizontal scrolling */
+  overflow-x: hidden;
   height: 100%;
 }
 
-/* Dynamic header style */
+/* Dynamic header styling */
+#dynamic-header-container {
+  width: 100%;
+  height: 300px;
+  background-color: #111; /* Dark background for contrast */
+  position: relative;
+  overflow: hidden;
+}
+
 #dynamic-header {
   width: 100%;
-  height: 300px; /* Adjust the height as needed */
-  background: #111; /* Dark background for contrast with animation */
+  height: 100%;
 }
 
 /* Main content styling */
-main {
-  padding: 20px; /* Adds padding around the content */
+main#content {
+  padding: 20px;
   background-color: #f9f9f9; /* Optional: light background for readability */
 }
