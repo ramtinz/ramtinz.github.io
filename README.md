@@ -72,13 +72,39 @@ Welcome to my portfolio! I'm Ramtin, a tech-enthusiast and scientist with a deep
 
 ---
 
-## 📄 Selected Publications
+## 📄 Publications
 
-- Zargari Marandi, R., *ExplaineR: an R package for model interpretability.* Bioinformatics Advances, 2024. [Link](https://doi.org/10.1093/bioadv/vbae049)
-- Nørgaard, J.C., Zargari Marandi, R., *Impact of antibiotics on gut microbiome in stem cell transplants.* Journal of Infectious Diseases, 2023.
-- Zargari Marandi, R., *Predicting plasma leakage in dengue patients.* PLOS Neglected Tropical Diseases, 2023.
+### Journal Papers (18)
+1. **Zargari Marandi, R.** *ExplaineR: an R package to explain machine learning models.* Bioinformatics Advances, 2024. [Link](https://doi.org/10.1093/bioadv/vbae049)
+2. Nørgaard, J.C., **Zargari Marandi, R.**, et al. *Impact of antibiotic treatment on the gut microbiome and its resistome in hematopoietic stem cell transplant recipients.* Journal of Infectious Diseases, 2023.
+3. **Zargari Marandi, R.**, et al. *Development of a machine learning model for early prediction of plasma leakage in suspected dengue patients.* PLOS Neglected Tropical Diseases, 2023.
+4. Jørgensen, M., Nørgaard, J.C., **Zargari Marandi, R.**, et al. *Metabolic Potential of the Gut Microbiome in Allogeneic Hematopoietic Stem Cell Transplantation Recipients.* International Journal of Molecular Sciences, 2022.
+5. Zucco, A.G., Agius, R., **Zargari Marandi, R.**, et al. *Personalized survival probabilities for SARS-CoV-2 positive patients by explainable machine learning.* Scientific Reports, 2022.
+6. **Zargari Marandi, R.**, et al. *Pre-Transplant Prediction of Acute Graft-versus-Host Disease Using the Gut Microbiome.* Cells, 2022.
+7. **Zargari Marandi, R.**, et al. *A data-driven approach to predict plasma leakage using explainable machine learning.* Open Forum Infectious Diseases, 2022.
+8. Larsen, A.S.T., Norheim, K.L., **Zargari Marandi, R.**, et al. *Investigating sensory manifestations in recreational female cyclists using a novel female-specific cycling pad.* Ergonomics, 2021.
+9. **Zargari Marandi, R.**, et al. *Sitting dynamics during computer work are age-dependent.* Applied Ergonomics, 2021.
+10. **Zargari Marandi, R.**, et al. *Eye movements in response to pain-related feelings in cognitive loads.* Behavioral Sciences, 2020.
+11. **Zargari Marandi, R.**, et al. *An oculometrics-based biofeedback system to impede fatigue development during computer work.* PLoS One, 2019.
+12. **Zargari Marandi, R.**, et al. *Eye movement characteristics reflected fatigue development.* Scientific Reports, 2018.
+13. **Zargari Marandi, R.**, et al. *Aging and eye tracking: in the quest for objective biomarkers.* Future Neurology, 2019.
+14. **Zargari Marandi, R.**, Sabzpoushan, S.H. *Qualitative modeling of the decision-making process using electrooculography.* Behavior Research Methods, 2015.
+15. Bajoulvand, A., **Zargari Marandi, R.**, et al. *Analysis of folk music preference using EEG signals.* Applied Mathematics and Computation, 2017.
+16. **Zargari Marandi, R.**, Sabzpoushan, S.H. *Using eye movement analysis to study auditory effects on visual memory recall.* Basic and Clinical Neuroscience, 2014.
+17. Falah, N., **Zargari Marandi, R.**, et al. *Visual cue effects on individual’s response prediction using eye movement analysis.* IOSR Journal of Electrical and Electronics Engineering, 2014.
+18. **Zargari Marandi, R.**, Sabzpoushan, S.H. *Improving reading activity recognition in daily life situations using DTW-based string matching algorithm in EOG signal processing.* Iranian Journal of Biomedical Engineering, 2013.
 
-For a full list of my 18 journal articles and 16 conference papers, please visit my [ORCID profile](https://orcid.org/0000-0001-9233-1656).
+### Conference Proceedings and Abstracts (16)
+1. **Zargari Marandi, R.** *Enhanced model interpretation using the “explaineR” package in R.* EMBL Symposium on AI and Biology, 2024.
+2. **Zargari Marandi, R.** *Introduction to the “explaineR” package in R for model interpretation.* Danish Digitalization, Data Science and AI 1.0, 2024.
+3. **Zargari Marandi, R.**, et al. *Machine learning model using the gut microbiome to predict E. faecium infection in stem cell recipients.* IDWEEK, Washington D.C., 2023.
+4. Milojevic, M., **Zargari Marandi, R.**, et al. *Polygenic Interactive Discovery System (PIDS): Exploring complex genetic networks.* ASHG, Washington D.C., 2023.
+5. **Zargari Marandi, R.**, et al. *Data-driven approach to predict plasma leakage using explainable ML.* IDWEEK, 2022.
+6. **Zargari Marandi, R.**, et al. *Ocular-based biofeedback to impede fatigue during computer work.* AI for the People, Aalborg, 2019.
+
+7-16. (Full list continues...)
+
+For a full list, please visit my [ORCID profile](https://orcid.org/0000-0001-9233-1656).
 
 ---
 
