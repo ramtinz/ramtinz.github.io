@@ -64,3 +64,8 @@ include:
   - "assets"
   - "style.css"
   - "script.js"
+
+<header id="dynamic-header"></header>
+
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
