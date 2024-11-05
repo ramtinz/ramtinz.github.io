@@ -21,7 +21,7 @@ theme: jekyll-theme-cayman
 
 # Header Image
 header:
-  image: "/assets/images/header-image.jpg"
+  image: "/assets/images/header.jpg"
   overlay_image: true
   caption: "Welcome to my Portfolio"
   caption_url: "https://linkedin.com/in/rzm"
@@ -62,3 +62,5 @@ paginate_path: "/page:num/"
 include:
   - "_pages"
   - "assets"
+  - "style.css"
+  - "script.js"
