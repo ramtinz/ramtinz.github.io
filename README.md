@@ -2,7 +2,7 @@
 ---
 
 ## 👨‍🔬 About Me
-- **Location:** Copenhagen, Denmark
+- **🌍:** Copenhagen, Denmark
 - **Current Role:** Postdoctoral Researcher at Rigshospitalet, CHIP Center of Excellence for Health Immunity and Infections.
 - **Contact:** ramtin.zargari AT gmail DOT com
 - **LinkedIn:** [linkedin.com/in/rzm](https://linkedin.com/in/rzm)
