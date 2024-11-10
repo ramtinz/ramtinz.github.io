@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tree of Life - Ramtin Zargari Marandi</title>
-  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <title>Word Cloud - Ramtin Zargari Marandi</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
   <style>
     body, html {
       margin: 0;
@@ -25,10 +25,13 @@
       margin-right: 20px;
     }
 
-    /* Dynamic tree canvas container */
-    #tree-container {
+    /* Word cloud canvas container */
+    #word-cloud-container {
       width: 100%;
       height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
   </style>
 </head>
@@ -36,15 +39,15 @@
   <!-- Navigation (optional, can link back to homepage) -->
   <nav>
     <a href="index.html">Home</a>
-    <a href="treeOfLife.html">Tree of Life</a>
+    <a href="treeOfLife.html">Word Cloud</a>
   </nav>
 
-  <!-- Tree of Life visualization -->
-  <div id="tree-container"></div>
+  <!-- Word cloud container -->
+  <div id="word-cloud-container">
+    <!-- p5.js canvas will be inserted here -->
+  </div>
 
-  <!-- p5.js library for canvas-based rendering -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
-  <!-- Separate script for Tree of Life -->
-  <script src="treeScript.js"></script>
+  <!-- Word cloud script -->
+  <script src="wordCloudScript.js"></script>
 </body>
 </html>
