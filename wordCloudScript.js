@@ -38,7 +38,7 @@ function createWordCloud(wordFreq) {
 
 // Main function to fetch README, process text, and create word cloud
 async function generateWordCloud() {
-  const readmeUrl = 'https://raw.githubusercontent.com/username/repo/main/README.md';
+  const readmeUrl = 'https://github.com/ramtinz/ramtinz.github.io/blob/master/README.md';
   const readmeContent = await fetchReadmeContent(readmeUrl);
   const wordFreq = processText(readmeContent);
   createWordCloud(wordFreq);
