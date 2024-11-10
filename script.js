@@ -3,59 +3,42 @@ let maxNodes = 50;
 let maxDistance = 150;
 
 function setup() {
+  // Create a canvas that covers the header element
   let canvas = createCanvas(windowWidth, 300);
   canvas.parent("dynamic-header");
 
-  // Initialize nodes with random positions and initial velocities
+  // Initialize nodes with random positions
   for (let i = 0; i < maxNodes; i++) {
-    let vx = random(-0.5, 0.5); // Start with a gentle speed
-    let vy = random(-0.5, 0.5);
     nodes.push({
       x: random(width),
       y: random(height),
-      vx: vx,
-      vy: vy,
-      initialVx: vx,
-      initialVy: vy,
+      vx: random(-1, 1),
+      vy: random(-1, 1),
+      color: color(random(100, 255), random(100, 255), random(100, 255)) // Random pastel colors
     });
   }
 }
 
 function draw() {
-  background(0, 0, 139); // Dark blue background
+  background(0, 0, 139); // Set to a dark blue background
 
   // Update and display each node
   nodes.forEach((node) => {
+    // Make node react to the cursor
     let mouseDist = dist(mouseX, mouseY, node.x, node.y);
-
-    // Influence of the mouse on node velocity
     if (mouseDist < maxDistance / 2) {
       let angle = atan2(node.y - mouseY, node.x - mouseX);
-      node.vx += cos(angle) * 0.02; // Reduced influence for smoother motion
-      node.vy += sin(angle) * 0.02;
-    } else {
-      // Gradually return to initial speed when mouse is not near
-      node.vx += (node.initialVx - node.vx) * 0.02;
-      node.vy += (node.initialVy - node.vy) * 0.02;
+      node.vx += cos(angle) * 0.5;
+      node.vy += sin(angle) * 0.5;
     }
 
-    // Update position with gentle minimum speed
+    // Update position
     node.x += node.vx;
     node.y += node.vy;
 
-    // Keep nodes moving at a gentle speed
-    let minSpeed = 0.2;
-    let maxSpeed = 1.0;
-    let speed = sqrt(node.vx * node.vx + node.vy * node.vy);
-
-    // Enforce minimum and maximum speed limits
-    if (speed < minSpeed) {
-      node.vx = (node.vx / speed) * minSpeed;
-      node.vy = (node.vy / speed) * minSpeed;
-    } else if (speed > maxSpeed) {
-      node.vx = (node.vx / speed) * maxSpeed;
-      node.vy = (node.vy / speed) * maxSpeed;
-    }
+    // Limit speed for smooth motion
+    node.vx = constrain(node.vx, -2, 2);
+    node.vy = constrain(node.vy, -2, 2);
 
     // Bounce off edges
     if (node.x < 0 || node.x > width) node.vx *= -1;
