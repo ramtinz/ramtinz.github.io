@@ -2,6 +2,10 @@ let nodes = [];
 let maxNodes = 50;
 let maxDistance = 150;
 let maxZ = 500; // Maximum distance in the z-axis for perspective
+let isHovered = false;
+let targetSpeedMultiplier = 1;
+let speedMultiplier = 1;
+let lastHoverTime = 0;
 
 function setup() {
   // Create a canvas that covers the header element
@@ -24,6 +28,9 @@ function setup() {
 function draw() {
   background(0, 0, 139); // Set to a dark blue background
 
+  // Adjust speed multiplier gradually to make slowing down smooth
+  speedMultiplier = lerp(speedMultiplier, targetSpeedMultiplier, 0.05);
+
   // Update and display each node
   nodes.forEach((node) => {
     // Scale size and opacity based on z-depth
@@ -38,10 +45,10 @@ function draw() {
       node.vy += sin(angle) * 0.5;
     }
 
-    // Update position in x, y, and z axes
-    node.x += node.vx;
-    node.y += node.vy;
-    node.z += node.vz;
+    // Update position in x, y, and z axes with the speed multiplier
+    node.x += node.vx * speedMultiplier;
+    node.y += node.vy * speedMultiplier;
+    node.z += node.vz * speedMultiplier;
 
     // Bounce off edges in x and y directions
     if (node.x < 0 || node.x > width) node.vx *= -1;
@@ -68,8 +75,25 @@ function draw() {
       }
     }
   }
+
+  // Check if a second has passed since hover ended, and reset speed gradually
+  if (!isHovered && millis() - lastHoverTime > 1000) {
+    targetSpeedMultiplier = 1;
+  }
 }
 
+// Detect mouse hover to speed up nodes
+function mouseMoved() {
+  isHovered = true;
+  targetSpeedMultiplier = 2; // Increase speed on hover
+  lastHoverTime = millis();
+}
+
+// Detect when the mouse leaves the canvas to slow down nodes
+function mouseOut() {
+  isHovered = false;
+}
+  
 // Handle window resizing
 function windowResized() {
   resizeCanvas(windowWidth, 300);
