@@ -7,7 +7,7 @@ async function fetchReadmeContent(url) {
       throw new Error(`HTTP error! status: ${response.status}`);
     }
     const text = await response.text();
-    console.log("Fetched content length:", text.length);
+    console.log("Fetched content:", text.substring(0, 100) + "..."); // Log the first 100 characters
     if (text.length === 0) {
       throw new Error("Fetched content is empty");
     }
@@ -20,6 +20,10 @@ async function fetchReadmeContent(url) {
 
 // Function to process the text and create a word frequency object
 function processText(text) {
+  if (!text) {
+    console.error("No text to process");
+    return {};
+  }
   const words = text.toLowerCase().match(/\b\w+\b/g) || [];
   console.log("Number of words processed:", words.length);
   const wordFreq = {};
@@ -28,7 +32,7 @@ function processText(text) {
       wordFreq[word] = (wordFreq[word] || 0) + 1;
     }
   });
-  console.log("Number of unique words:", Object.keys(wordFreq).length);
+  console.log("Word frequency object:", wordFreq);
   return wordFreq;
 }
 
@@ -39,9 +43,13 @@ function createWordCloud(wordFreq) {
     .sort((a, b) => b[1] - a[1])
     .slice(0, 100);
 
-  console.log("Top 5 words:", wordList.slice(0, 5));
+  console.log("Word list for cloud:", wordList);
 
   const canvas = document.getElementById('word-cloud');
+  if (!canvas) {
+    console.error("Canvas element not found");
+    return;
+  }
   const containerWidth = canvas.parentElement.clientWidth;
   const containerHeight = canvas.parentElement.clientHeight;
 
@@ -88,11 +96,17 @@ function testWordCloud() {
   ];
   
   const canvas = document.getElementById('word-cloud');
+  if (!canvas) {
+    console.error("Canvas element not found");
+    return;
+  }
   const containerWidth = canvas.parentElement.clientWidth;
   const containerHeight = canvas.parentElement.clientHeight;
 
   canvas.width = containerWidth;
   canvas.height = containerHeight;
+
+  console.log("Testing with sample data:", sampleWords);
 
   WordCloud(canvas, {
     list: sampleWords,
@@ -109,12 +123,21 @@ function testWordCloud() {
 }
 
 // Call the main function when the window loads
-window.addEventListener('load', generateWordCloud);
+window.addEventListener('load', () => {
+  console.log("Window loaded, generating word cloud...");
+  generateWordCloud();
+});
 
 // Uncomment the line below to test with sample data instead
 // window.addEventListener('load', testWordCloud);
 
 // Redraw the word cloud when the window is resized
 window.addEventListener('resize', () => {
+  console.log("Window resized, regenerating word cloud...");
   generateWordCloud();
 });
+
+// Check if WordCloud function is available
+if (typeof WordCloud === 'undefined') {
+  console.error("WordCloud function is not defined. Make sure the WordCloud2.js library is properly loaded.");
+}
