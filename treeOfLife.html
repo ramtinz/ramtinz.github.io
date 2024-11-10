@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Word Cloud - Ramtin Zargari Marandi</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wordcloud2.js/1.2.2/wordcloud2.min.js"></script>
   <style>
     body, html {
       margin: 0;
@@ -13,7 +14,6 @@
       background-color: #f5f5f5;
     }
 
-    /* Word cloud canvas container */
     #word-cloud-container {
       width: 100%;
       height: 100vh;
@@ -22,18 +22,18 @@
       align-items: center;
       background-color: #f5f5f5;
     }
+
+    #word-cloud {
+      max-width: 100%;
+      max-height: 100%;
+    }
   </style>
 </head>
 <body>
-  <!-- Word cloud container -->
   <div id="word-cloud-container">
-    <!-- p5.js canvas will be inserted here -->
-    <canvas id="word-cloud" width="800" height="400"></canvas>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/wordcloud2.js/1.2.2/wordcloud2.min.js"></script>
-  
+    <canvas id="word-cloud"></canvas>
   </div>
 
-  <!-- Word cloud script -->
   <script src="wordCloudScript.js"></script>
 </body>
 </html>
