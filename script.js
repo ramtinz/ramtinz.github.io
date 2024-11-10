@@ -3,58 +3,58 @@ let maxNodes = 50;
 let maxDistance = 150;
 
 function setup() {
-  // Create a canvas that covers the header element
   let canvas = createCanvas(windowWidth, 300);
   canvas.parent("dynamic-header");
 
-  // Initialize nodes with random positions and colors
+  // Initialize nodes with random positions and initial velocities
   for (let i = 0; i < maxNodes; i++) {
+    let vx = random(-1, 1);
+    let vy = random(-1, 1);
     nodes.push({
       x: random(width),
       y: random(height),
-      vx: random(-0.2, 0.2),
-      vy: random(-0.2, 0.2),
-      color: color(random(100, 255), random(100, 255), random(100, 255)) // Random pastel colors
+      vx: vx,
+      vy: vy,
+      initialVx: vx, // Store the initial velocity
+      initialVy: vy,
     });
   }
 }
 
 function draw() {
-  background(0, 0, 139); // Set to a dark blue background
+  background(0, 0, 139); // Dark blue background
 
   // Update and display each node
   nodes.forEach((node) => {
-    // Make node react to the cursor
     let mouseDist = dist(mouseX, mouseY, node.x, node.y);
-    if (mouseDist < maxDistance) {
+
+    if (mouseDist < maxDistance / 2) {
       let angle = atan2(node.y - mouseY, node.x - mouseX);
-      
-      // Apply an easing force to move nodes slowly away from the cursor
-      let force = map(mouseDist, 0, maxDistance, 0.1, 0); // Smaller force for gentler movement
-      node.vx += cos(angle) * force;
-      node.vy += sin(angle) * force;
+      node.vx += cos(angle) * 0.05; // Small influence to avoid fast acceleration
+      node.vy += sin(angle) * 0.05;
+    } else {
+      // Gradually return to initial speed when mouse is not near
+      node.vx += (node.initialVx - node.vx) * 0.05;
+      node.vy += (node.initialVy - node.vy) * 0.05;
     }
 
-    // Update position
+    // Update position with constrained speed
     node.x += node.vx;
     node.y += node.vy;
 
-    // Apply gentle damping so they keep moving slowly
-    node.vx *= 0.98;
-    node.vy *= 0.98;
-
-    // Limit speed for smooth, natural motion
-    node.vx = constrain(node.vx, -0.5, 0.5);
-    node.vy = constrain(node.vy, -0.5, 0.5);
+    // Constrain speed for smoother motion
+    let maxSpeed = 1.5;
+    node.vx = constrain(node.vx, -maxSpeed, maxSpeed);
+    node.vy = constrain(node.vy, -maxSpeed, maxSpeed);
 
     // Bounce off edges
     if (node.x < 0 || node.x > width) node.vx *= -1;
     if (node.y < 0 || node.y > height) node.vy *= -1;
 
-    // Draw node as a small, colored circle
+    // Draw node as a small circle
     noStroke();
-    fill(node.color);
-    ellipse(node.x, node.y, 6, 6);
+    fill(255);
+    ellipse(node.x, node.y, 5, 5);
   });
 
   // Draw connections based on distance
