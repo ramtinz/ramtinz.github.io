@@ -7,13 +7,14 @@ function setup() {
   let canvas = createCanvas(windowWidth, 300);
   canvas.parent("dynamic-header");
 
-  // Initialize nodes with random positions
+  // Initialize nodes with random positions and colors
   for (let i = 0; i < maxNodes; i++) {
     nodes.push({
       x: random(width),
       y: random(height),
-      vx: random(-0.5, 0.5),
-      vy: random(-0.5, 0.5),
+      vx: random(-0.2, 0.2),
+      vy: random(-0.2, 0.2),
+      color: color(random(100, 255), random(100, 255), random(100, 255)) // Random pastel colors
     });
   }
 }
@@ -28,8 +29,8 @@ function draw() {
     if (mouseDist < maxDistance) {
       let angle = atan2(node.y - mouseY, node.x - mouseX);
       
-      // Apply an easing force to move nodes smoothly away from the cursor
-      let force = map(mouseDist, 0, maxDistance, 0.2, 0); // Decrease force as distance increases
+      // Apply an easing force to move nodes slowly away from the cursor
+      let force = map(mouseDist, 0, maxDistance, 0.1, 0); // Smaller force for gentler movement
       node.vx += cos(angle) * force;
       node.vy += sin(angle) * force;
     }
@@ -38,22 +39,22 @@ function draw() {
     node.x += node.vx;
     node.y += node.vy;
 
-    // Gradually slow down the nodes for smooth motion
-    node.vx *= 0.95;
-    node.vy *= 0.95;
+    // Apply gentle damping so they keep moving slowly
+    node.vx *= 0.98;
+    node.vy *= 0.98;
 
-    // Limit speed for more natural motion
-    node.vx = constrain(node.vx, -1, 1);
-    node.vy = constrain(node.vy, -1, 1);
+    // Limit speed for smooth, natural motion
+    node.vx = constrain(node.vx, -0.5, 0.5);
+    node.vy = constrain(node.vy, -0.5, 0.5);
 
     // Bounce off edges
     if (node.x < 0 || node.x > width) node.vx *= -1;
     if (node.y < 0 || node.y > height) node.vy *= -1;
 
-    // Draw node as a small circle
+    // Draw node as a small, colored circle
     noStroke();
-    fill(255);
-    ellipse(node.x, node.y, 5, 5);
+    fill(node.color);
+    ellipse(node.x, node.y, 6, 6);
   });
 
   // Draw connections based on distance
