@@ -19,7 +19,7 @@ function setup() {
 }
 
 function draw() {
-  background(17); // Match header background color
+  background(0, 0, 139); // Set to a dark blue background
 
   // Update and display each node
   nodes.forEach((node) => {
