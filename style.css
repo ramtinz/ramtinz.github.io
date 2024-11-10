@@ -8,10 +8,10 @@ body, html {
   color: #333;
 }
 
-/* Dark blue header */
+/* Dark blue header with reduced height */
 #dynamic-header {
   width: 100vw;
-  height: 300px; /* Height adjustable */
+  height: 250px; /* Slightly narrower header */
   background-color: rgb(5, 5, 30); /* Darker blue */
   margin: 0;
 }
@@ -40,9 +40,9 @@ body, html {
   min-width: 200px; /* Ensure a minimum width for text */
 }
 
-/* Left margin for README content on larger screens */
+/* Left padding for README content on larger screens */
 #content {
-  margin-left: 20px; /* Default margin */
+  padding-left: 20px; /* Left padding to add margin effect */
 }
 
 /* Responsive adjustments for smaller screens */
@@ -64,8 +64,8 @@ body, html {
     text-align: center;
   }
 
-  /* Remove left margin for README content on small screens */
+  /* Remove left padding for README content on small screens */
   #content {
-    margin-left: 0;
+    padding-left: 0;
   }
 }
