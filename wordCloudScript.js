@@ -1,72 +1,48 @@
-let words = [];  // Array to store the words extracted from README.md
-let wordSizes = {};  // Object to store word sizes for frequency
-
-// p5.js setup function
-function setup() {
-  createCanvas(windowWidth, windowHeight);
-  textAlign(CENTER, CENTER);
-  noStroke();
-
-  // Load the README.md and process its content
-  fetch('README.md')
-    .then(response => response.text())
-    .then(data => {
-      console.log("README.md fetched successfully.");
-      words = extractWords(data);
-      wordSizes = calculateWordFrequency(words);
-      loop();  // Start the animation once words are loaded
-    })
-    .catch(error => {
-      console.error("Error fetching README.md:", error);
-      words = ["Error loading words"];
-      wordSizes = { "Error": 1 };
-      loop();
-    });
+// Function to fetch and parse the README.md content
+async function fetchReadmeContent(url) {
+  const response = await fetch(url);
+  const text = await response.text();
+  return text;
 }
 
-// Extract words from the README text
-function extractWords(text) {
-  // Remove non-alphabetic characters and split by spaces
-  let wordList = text.replace(/[^a-zA-Z\s]/g, "").split(/\s+/);
-  return wordList.filter(word => word.length > 3);  // Remove short words
-}
-
-// Calculate word frequency for size
-function calculateWordFrequency(wordList) {
-  let freq = {};
-  wordList.forEach(word => {
-    word = word.toLowerCase();  // Convert to lowercase
-    if (freq[word]) {
-      freq[word]++;
-    } else {
-      freq[word] = 1;
+// Function to process the text and create a word frequency object
+function processText(text) {
+  const words = text.toLowerCase().match(/\b\w+\b/g);
+  const wordFreq = {};
+  words.forEach(word => {
+    if (word.length > 3) {
+      wordFreq[word] = (wordFreq[word] || 0) + 1;
     }
   });
-  return freq;
+  return wordFreq;
 }
 
-// p5.js draw function to render the word cloud
-function draw() {
-  background(255);  // White background
-  
-  // Display each word with a random position and color
-  Object.keys(wordSizes).forEach((word, index) => {
-    let x = random(width);
-    let y = random(height);
-    let size = map(wordSizes[word], 1, Math.max(...Object.values(wordSizes)), 20, 100);
-    let col = color(random(255), random(255), random(255));  // Random color for each word
-    drawWord(word, x, y, size, col);
+// Function to create the word cloud
+function createWordCloud(wordFreq) {
+  const wordList = Object.entries(wordFreq)
+    .map(([text, weight]) => ({ text, weight }))
+    .sort((a, b) => b.weight - a.weight)
+    .slice(0, 100);
+
+  WordCloud(document.getElementById('word-cloud'), {
+    list: wordList,
+    gridSize: 16,
+    weightFactor: 10,
+    fontFamily: 'Arial, sans-serif',
+    color: 'random-dark',
+    rotateRatio: 0.5,
+    rotationSteps: 2,
+    backgroundColor: '#fff'
   });
 }
 
-// Function to draw a single word
-function drawWord(word, x, y, size, col) {
-  fill(col);
-  textSize(size);
-  text(word, x, y);
+// Main function to fetch README, process text, and create word cloud
+async function generateWordCloud() {
+  const readmeUrl = 'https://raw.githubusercontent.com/username/repo/main/README.md';
+  const readmeContent = await fetchReadmeContent(readmeUrl);
+  const wordFreq = processText(readmeContent);
+  createWordCloud(wordFreq);
 }
 
-// Handle window resizing
-function windowResized() {
-  resizeCanvas(windowWidth, windowHeight);
-}
+// Call the main function
+generateWordCloud();
