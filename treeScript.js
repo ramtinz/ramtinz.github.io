@@ -1,74 +1,55 @@
-let treeData;
+let wordArray = [];  // To hold words from the README.md
 
+// Setup the canvas for p5.js
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  treeData = generateTreeData();
-  noLoop();
-  fill(0);
-  textSize(18);
+  textAlign(CENTER, CENTER);
+  noStroke();
+  
+  // Load the README.md and parse the words
+  fetch('README.md')
+    .then(response => response.text())
+    .then(data => {
+      wordArray = extractWords(data);
+      noLoop();  // Initially, stop redrawing the screen to load words
+    })
+    .catch(error => {
+      console.error("Error fetching README.md:", error);
+      wordArray = ["Error loading words"];
+    });
 }
 
+// Extract words from README.md content
+function extractWords(text) {
+  // Remove non-alphabetic characters and split by whitespace
+  let words = text.replace(/[^a-zA-Z\s]/g, "").split(/\s+/);
+  return words.filter(word => word.length > 3);  // Filter out short words
+}
+
+// Draw the word cloud
 function draw() {
   background(255);
-  translate(width / 2, 100);
 
-  drawTree(treeData, 0, 200, 0, 0);
+  // Randomly place and animate the words
+  wordArray.forEach((word, index) => {
+    let x = random(width);
+    let y = random(height);
+    let size = map(noise(index), 0, 1, 20, 70);  // Random size based on noise
+    let color = color(random(255), random(255), random(255));  // Random color
+    drawWord(word, x, y, size, color);
+  });
 }
 
-function generateTreeData() {
-  return {
-    label: "Ramtin Zargari Marandi",
-    children: [
-      {
-        label: "Research",
-        children: [
-          { label: "ExplaineR Package" },
-          { label: "Predictive Modeling" },
-          { label: "Biofeedback Research" },
-        ]
-      },
-      {
-        label: "Education",
-        children: [
-          { label: "Ph.D. in Biomedical Science" },
-          { label: "M.Sc. in Biomedical Engineering" },
-          { label: "B.Sc. in Electrical Engineering" },
-        ]
-      },
-      {
-        label: "Skills",
-        children: [
-          { label: "Python, R, MATLAB" },
-          { label: "Machine Learning & AI" },
-          { label: "Data Analysis & Visualization" },
-          { label: "Containerization (Docker, Kubernetes)" }
-        ]
-      },
-      {
-        label: "Publications",
-        children: [
-          { label: "ExplaineR R Package (2024)" },
-          { label: "Early Prediction of Dengue (2023)" },
-          { label: "Gut Microbiome & Infection (2022)" },
-        ]
-      }
-    ]
-  };
+// Draw a single word
+function drawWord(word, x, y, size, col) {
+  fill(col);
+  textSize(size);
+  text(word, x, y);
 }
 
-function drawTree(node, x, y, angle, depth) {
-  let len = 100 / (depth + 1);
-  textAlign(CENTER);
-  text(node.label, x, y);
-
-  if (node.children) {
-    for (let i = 0; i < node.children.length; i++) {
-      let newX = x + cos(angle + i * PI / 4) * len;
-      let newY = y + sin(angle + i * PI / 4) * len;
-      line(x, y, newX, newY);
-      drawTree(node.children[i], newX, newY, angle + i * PI / 4, depth + 1);
-    }
-  }
+// Make the words move with mouse interaction
+function mousePressed() {
+  loop();  // Start the animation when mouse is pressed
 }
 
 function windowResized() {
