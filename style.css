@@ -8,5 +8,5 @@ body, html {
 #dynamic-header {
   width: 100vw;
   height: 300px; /* Adjust height as needed */
-  background: blue; /* Dark background for contrast */
+  background: rgb(10, 10, 55); /* Dark blue background for contrast */
 }
