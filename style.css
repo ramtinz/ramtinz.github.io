@@ -40,9 +40,10 @@ body, html {
   min-width: 200px; /* Ensure a minimum width for text */
 }
 
-/* Left padding for README content on larger screens */
+/* Left margin for README content */
 #content {
-  padding-left: 20px; /* Left padding to add margin effect */
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 /* Responsive adjustments for smaller screens */
@@ -64,8 +65,9 @@ body, html {
     text-align: center;
   }
 
-  /* Remove left padding for README content on small screens */
+  /* Remove left margin for README content on small screens */
   #content {
-    padding-left: 0;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
