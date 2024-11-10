@@ -1,59 +1,71 @@
-/* style.css */
+/* Main container setup */
 body, html {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-}
-
-#dynamic-header {
-  width: 100vw;
-  height: 300px; /* Adjust height as needed */
-  background-color: rgb(5, 5, 30); /* Darker blue background */
-  margin: 0; /* Ensure no space below */
-}
-
-body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
   color: #333;
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 0 20px;
 }
 
+/* Dark blue header */
+#dynamic-header {
+  width: 100vw;
+  height: 300px; /* Height adjustable */
+  background-color: rgb(5, 5, 30); /* Darker blue */
+  margin: 0;
+}
+
+/* Content container settings */
 .content-container {
   display: flex;
+  flex-direction: row;
   align-items: flex-start;
-  margin: 0; /* Remove margin to avoid black space */
-  flex-wrap: wrap; /* Ensures layout adapts for smaller screens */
+  margin: 20px;
+  flex-wrap: wrap;
 }
 
+/* Image styling for responsiveness */
 .content-container img {
-  max-width: 100%; /* Ensures image scales responsively */
-  width: 200px; /* Default width for desktop */
-  margin: 20px 20px 20px 0;
-  border-radius: 5px;
+  width: 100%;
+  max-width: 200px; /* Default max width */
   height: auto;
+  margin-right: 20px;
+  border-radius: 5px;
 }
 
+/* Text styling */
 .content-text {
-  flex: 1; /* Allow text to take up remaining space */
-  max-width: 100%; /* Ensures text scales for smaller screens */
-  margin-top: 20px; /* Add some space above text */
+  flex: 1;
+  min-width: 200px; /* Ensure a minimum width for text */
 }
 
-@media (max-width: 600px) {
+/* Left margin for README content on larger screens */
+#content {
+  margin-left: 20px; /* Default margin */
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
   .content-container {
-    flex-direction: column; /* Stacks image and text on small screens */
+    flex-direction: column;
     align-items: center;
+    text-align: center;
   }
 
   .content-container img {
-    width: 100%; /* Full-width image on small screens */
-    margin: 20px 0;
+    margin-right: 0;
+    margin-bottom: 20px; /* Space below image */
+    width: 80%; /* Scale image to 80% of screen width */
   }
 
   .content-text {
-    text-align: center; /* Center text on small screens */
+    width: 100%;
+    text-align: center;
+  }
+
+  /* Remove left margin for README content on small screens */
+  #content {
+    margin-left: 0;
   }
 }
