@@ -71,3 +71,27 @@ body, html {
     margin-right: 0;
   }
 }
+
+
+footer {
+  position: relative;
+  background-color: rgb(5, 5, 30); /* Same as stars' background */
+  width: 100%;
+  height: 200px; /* Matches canvas height */
+  overflow: hidden;
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+}
+
+footer p {
+  margin: 0;
+  font-size: 14px;
+  color: #aaa;
+}
+
+#footer-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
