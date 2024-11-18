@@ -5,9 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ramtin Zargari Marandi</title>
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.24/vanta.birds.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.24/vanta.globe.min.js"></script>
   <style>
     /* Main container setup */
     body, html {
@@ -77,11 +77,6 @@
       width: 100%;
       height: 200px;
       background: rgb(5, 5, 30);
-      overflow: hidden;
-    }
-
-    canvas {
-      display: block; /* Ensures full-width visualization */
     }
   </style>
 </head>
@@ -121,31 +116,19 @@
     <a href="explainer_demo.html">ExplaineR Demo</a>
   </nav>
 
-  <!-- Footer Visualization -->
-  <footer id="footer"></footer>
+  <!-- Footer with VANTA.GLOBE -->
+  <footer id="dynamic-footer"></footer>
   <script>
-    function setup() {
-      let footerCanvas = createCanvas(windowWidth, 200);
-      footerCanvas.parent('footer');
-      noStroke();
-    }
-
-    function draw() {
-      background(5, 5, 30); // Dark blue
-      fill(255, 255, 255, 150); // Star color
-      for (let i = 0; i < 50; i++) {
-        ellipse(random(width), random(height / 2), random(1, 3), random(1, 3)); // Stars
-      }
-      fill(0, 50, 200, 100); // Water waves
-      for (let y = 150; y < height; y += 10) {
-        let waveX = map(sin(frameCount * 0.02 + y), -1, 1, 0, width);
-        ellipse(waveX, y, 200, 20); // Wave movement
-      }
-    }
-
-    function windowResized() {
-      resizeCanvas(windowWidth, 200);
-    }
+    VANTA.GLOBE({
+      el: "#dynamic-footer",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 200.00,
+      minWidth: 200.00,
+      scale: 1.00,
+      scaleMobile: 1.00
+    });
   </script>
 
   <script>
