@@ -7,7 +7,6 @@
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.24/vanta.birds.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.24/vanta.globe.min.js"></script>
   <style>
     /* Main container setup */
     body, html {
@@ -70,14 +69,6 @@
         text-align: center;
       }
     }
-
-    /* Footer visualization container */
-    footer {
-      position: relative;
-      width: 100%;
-      height: 200px;
-      background: rgb(5, 5, 30);
-    }
   </style>
 </head>
 <body>
@@ -115,21 +106,6 @@
     <a href="treeOfLife.html">Word Cloud</a>
     <a href="explainer_demo.html">ExplaineR Demo</a>
   </nav>
-
-  <!-- Footer with VANTA.GLOBE -->
-  <footer id="dynamic-footer"></footer>
-  <script>
-    VANTA.GLOBE({
-      el: "#dynamic-footer",
-      mouseControls: true,
-      touchControls: true,
-      gyroControls: false,
-      minHeight: 200.00,
-      minWidth: 200.00,
-      scale: 1.00,
-      scaleMobile: 1.00
-    });
-  </script>
 
   <script>
     document.addEventListener('DOMContentLoaded', function() {
