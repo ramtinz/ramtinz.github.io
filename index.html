@@ -67,6 +67,24 @@
         text-align: center;
       }
     }
+
+    footer {
+    position: relative;
+    background-color: rgb(5, 5, 30); /* Match background of stars */
+    width: 100%;
+    height: 200px; /* Matches canvas height */
+    overflow: hidden;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 14px;
+    color: #aaa;
+  }
+
   </style>
 </head>
 <body>
@@ -109,5 +127,14 @@
         });
     });
   </script>
+
+  <footer>
+    <div id="footer-container">
+      <script src="footer.js"></script>
+    </div>
+    <p>&copy; 2024 Ramtin Zargari Marandi - Website with Waves and Stars</p>
+  </footer>
+
+
 </body>
 </html>
