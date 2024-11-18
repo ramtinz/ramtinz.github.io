@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ramtin Zargari Marandi</title>
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.24/vanta.birds.min.js"></script>
   <style>
     /* Main container setup */
     body, html {
@@ -16,11 +19,11 @@
       color: #333;
     }
 
-    /* Dark blue header */
+    /* Dynamic header */
     #dynamic-header {
       width: 100vw;
-      height: 300px; /* Height adjustable */
-      background-color: rgb(5, 5, 30); /* Darker blue */
+      height: 300px; /* Adjustable height */
+      background-color: rgb(5, 5, 30); /* Fallback color */
       margin: 0;
     }
 
@@ -68,34 +71,42 @@
       }
     }
 
+    /* Footer visualization container */
     footer {
-    position: relative;
-    background-color: rgb(5, 5, 30); /* Match background of stars */
-    width: 100%;
-    height: 200px; /* Matches canvas height */
-    overflow: hidden;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    }
-    
-    footer p {
-      margin: 0;
-      font-size: 14px;
-      color: #aaa;
+      position: relative;
+      width: 100%;
+      height: 200px;
+      background: rgb(5, 5, 30);
+      overflow: hidden;
     }
 
+    canvas {
+      display: block; /* Ensures full-width visualization */
+    }
   </style>
 </head>
 <body>
+  <!-- Header with VANTA.BIRDS -->
   <header id="dynamic-header"></header>
+
+  <script>
+    VANTA.BIRDS({
+      el: "#dynamic-header",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 300.00,
+      minWidth: 200.00,
+      scale: 1.00,
+      scaleMobile: 1.00
+    });
+  </script>
 
   <div class="content-container">
     <img src="assets/images/rzm.jpg" alt="Alt Text">
     <div class="content-text">
       <h2>Ramtin Zargari Marandi, PhD</h2>
       <p>I am a scientist with a strong foundation in engineering, driven by a passion for advancing AI and machine learning in research and development. My work spans a range of global health projects, including the microbiome, oncology, transplantation, and infectious diseases. By integrating genetic and clinical data with machine learning, I focus on enhancing patient outcomes. I have a proven track record in designing and executing innovative research initiatives, from real-time systems for cognitive performance to deployable diagnostic and prognostic tools. My expertise bridges software and hardware development, with hands-on prototyping skills to deliver solutions that are both impactful and practical.</p>
-      </p>
       <p>Check out my R package for explainable machine learning: <a href="https://persimune.github.io/explainer/" target="_blank">ExplaineR</a></p>
     </div>
   </div>
@@ -110,9 +121,33 @@
     <a href="explainer_demo.html">ExplaineR Demo</a>
   </nav>
 
+  <!-- Footer Visualization -->
+  <footer id="footer"></footer>
+  <script>
+    function setup() {
+      let footerCanvas = createCanvas(windowWidth, 200);
+      footerCanvas.parent('footer');
+      noStroke();
+    }
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
-  <script src="script.js"></script>
+    function draw() {
+      background(5, 5, 30); // Dark blue
+      fill(255, 255, 255, 150); // Star color
+      for (let i = 0; i < 50; i++) {
+        ellipse(random(width), random(height / 2), random(1, 3), random(1, 3)); // Stars
+      }
+      fill(0, 50, 200, 100); // Water waves
+      for (let y = 150; y < height; y += 10) {
+        let waveX = map(sin(frameCount * 0.02 + y), -1, 1, 0, width);
+        ellipse(waveX, y, 200, 20); // Wave movement
+      }
+    }
+
+    function windowResized() {
+      resizeCanvas(windowWidth, 200);
+    }
+  </script>
+
   <script>
     document.addEventListener('DOMContentLoaded', function() {
       fetch('README.md')
@@ -127,10 +162,5 @@
         });
     });
   </script>
-
 </body>
 </html>
-<footer>
-  <div id="footer-container"></div>
-  <p>&copy; 2024 Ramtin Zargari Marandi - Waves and Stars Visualization</p>
-</footer>
