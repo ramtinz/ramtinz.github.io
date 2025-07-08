@@ -213,22 +213,6 @@ body {
     padding: 0 20px;
 }
 
-.nav-brand {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    font-weight: 700;
-    color: var(--text-dark);
-    text-decoration: none;
-}
-
-.nav-logo {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    object-fit: cover;
-}
-
 .nav-menu {
     display: flex;
     list-style: none;
