@@ -1,0 +1,739 @@
+{
+  "name": "Ramtin Zargari Marandi, PhD",
+  "title": "Data Scientist & Research Engineer | Expert in AI | Business and Entrepreneurship with AI | MLOps Expert | Healthcare Applications",
+  "location": "Copenhagen, Denmark",
+  "email": "ramtin.zargari@gmail.com",
+  "bio": "Senior data scientist and AI engineer with a PhD in biomedical engineering. Over the past decade, I have contributed to designing and developing several AI systems, using genetic and clinical data, as well as implementing scalable, efficient software solutions for complex data workflows. I have extensive experience with Python, R, and cloud-based platforms, along with MLOps best practices for deploying and managing machine learning models in production.",
+  "contacts": {
+    "email": "ramtin.zargari@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/rzm/",
+    "github": "https://github.com/ramtinz",
+    "scholar": "https://bit.ly/RamtinGS"
+  },
+  "stats": {
+    "githubRepos": 28,
+    "citations": 403,
+    "hIndex": 10,
+    "i10Index": 11,
+    "totalPapers": 15,
+    "topRepos": [
+      {
+        "name": "MAIT",
+        "description": "Open-source Python platform for reproducible medical AI",
+        "url": "https://github.com/PERSIMUNE/MAIT",
+        "demo": "https://persimune.github.io/MAIT/intro.html",
+        "stars": 25,
+        "forks": 8,
+        "language": "Python"
+      },
+      {
+        "name": "explainer",
+        "description": "R package for explaining machine learning models",
+        "url": "https://github.com/PERSIMUNE/explainer",
+        "demo": "https://persimune.github.io/explainer/",
+        "stars": 15,
+        "forks": 3,
+        "language": "R"
+      },
+      {
+        "name": "DAIMS",
+        "description": "Data Analysis and Interpretation for Medical Studies",
+        "url": "https://github.com/PERSIMUNE/DAIMS",
+        "demo": "https://daims-app.streamlit.app/",
+        "stars": 12,
+        "forks": 4,
+        "language": "Python"
+      }
+    ],
+    "recentPapers": [
+      {
+        "title": "Prediction of bloodstream infection using machine learning based primarily on biochemical data",
+        "authors": ["RZ Marandi", "FB Hertz", "JQ Thomassen", "SC Rasmussen", "R Frikke-Schmidt", "N Frimodt-Møller", "KL Nielsen", "CR MacPherson"],
+        "venue": "Scientific Reports",
+        "year": 2025,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40394073/"
+      },
+      {
+        "title": "The gut microbiome and its resistome as predictors of clinical infections and phenotypic antibiotic resistance in hematopoietic stem cell transplant recipients",
+        "authors": ["JC Nørgaard", "RZ Marandi", "EE Ilett", "A Gulay", "R Paredes", "JD Lundgren", "H Sengeløv", "CR MacPherson"],
+        "venue": "The Journal of Infectious Diseases",
+        "year": 2025,
+        "url": "https://doi.org/10.1093/infdis/jiaf330"
+      },
+      {
+        "title": "Datasheets for AI and medical datasets (DAIMS): a data validation and documentation framework before machine learning analysis in medical research",
+        "authors": ["RZ Marandi", "AS Frahm", "M Milojevic"],
+        "venue": "arXiv preprint",
+        "year": 2025,
+        "url": "https://arxiv.org/abs/2501.14094"
+      },
+      {
+        "title": "Medical artificial intelligence toolbox (MAIT): an explainable machine learning framework for binary classification, survival modelling, and regression analyses",
+        "authors": ["RZ Marandi", "AS Frahm", "J Lundgren", "DD Murray", "M Milojevic"],
+        "venue": "arXiv preprint",
+        "year": 2025,
+        "url": "https://arxiv.org/abs/2501.04547"
+      },
+      {
+        "title": "ExplaineR: an R package to explain machine learning models",
+        "authors": ["R Zargari Marandi"],
+        "venue": "Bioinformatics Advances",
+        "year": 2024,
+        "url": "https://doi.org/10.1093/bioadv/vbae049"
+      },
+      {
+        "title": "Explainable machine learning to identify chronic lymphocytic leukemia based on gut microbiome data",
+        "authors": ["T Faitova", "R Marandi", "C Niemann"],
+        "venue": "Leukemia & Lymphoma",
+        "year": 2023,
+        "url": "https://doi.org/10.1080/10428194.2023.2228076"
+      },
+      {
+        "title": "315. An Interpretable Machine Learning Model Using The Gut Microbiome to Predict Clinical E. faecium Infection in Human Stem-Cell Transplant Recipients",
+        "authors": ["RZ Marandi", "JC Nørgaard", "EE Ilett", "MN Julian", "R Paredes", "JD Lundgren", "H Sengeløv", "CR MacPherson"],
+        "venue": "Open Forum Infectious Diseases",
+        "year": 2023,
+        "url": "https://doi.org/10.1093/ofid/ofad500.386"
+      },
+      {
+        "title": "Development of a machine learning model for early prediction of plasma leakage in suspected dengue patients",
+        "authors": ["R Zargari Marandi", "P Leung", "C Sigera", "DD Murray", "P Weeratunga", "D Fernando", "C Rodrigo", "S Rajapakse", "CR MacPherson"],
+        "venue": "PLOS Neglected Tropical Diseases",
+        "year": 2023,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36913411/"
+      },
+      {
+        "title": "Impact of antibiotic treatment on the gut microbiome and its resistome in hematopoietic stem cell transplant recipients",
+        "authors": ["JC Nørgaard", "M Jørgensen", "KS Moestrup", "EE Ilett", "AG Zucco", "RZ Marandi", "M Noguera-Julian", "R Paredes", "JD Lundgren", "H Sengeløv", "CR MacPherson"],
+        "venue": "The Journal of Infectious Diseases",
+        "year": 2023,
+        "url": "https://doi.org/10.1093/infdis/jiad179"
+      },
+      {
+        "title": "1162. A data-driven approach to predict plasma leakage using explainable machine learning",
+        "authors": ["RZ Marandi", "P Leung", "C Sigera", "DD Murray", "P Weeratunga", "D Fernando", "C Rodrigo", "S Rajapakse", "CR MacPherson"],
+        "venue": "Open Forum Infectious Diseases",
+        "year": 2022,
+        "url": "https://doi.org/10.1093/ofid/ofac492.999"
+      },
+      {
+        "title": "Metabolic potential of the gut microbiome is significantly impacted by conditioning regimen in allogeneic hematopoietic stem cell transplantation recipients",
+        "authors": ["M Jørgensen", "JC Nørgaard", "EE Ilett", "RZ Marandi", "M Noguera-Julian", "R Paredes", "JD Lundgren", "H Sengeløv", "CR MacPherson"],
+        "venue": "International Journal of Molecular Sciences",
+        "year": 2022,
+        "url": "https://doi.org/10.3390/ijms231911115"
+      },
+      {
+        "title": "Pre-Transplant Prediction of Acute Graft-versus-Host Disease Using the Gut Microbiome",
+        "authors": ["R Zargari Marandi", "M Jørgensen", "EE Ilett", "JC Nørgaard", "M Noguera-Julian", "R Paredes", "JD Lundgren", "H Sengeløv", "CR MacPherson"],
+        "venue": "Cells",
+        "year": 2022,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/36552852/"
+      },
+      {
+        "title": "Personalized survival probabilities for SARS-CoV-2 positive patients by explainable machine learning",
+        "authors": ["AG Zucco", "R Agius", "R Svanberg", "KS Moestrup", "RZ Marandi", "M Noguera-Julian", "R Paredes", "JD Lundgren", "H Sengeløv", "CR MacPherson"],
+        "venue": "Scientific Reports",
+        "year": 2022,
+        "url": "https://doi.org/10.1038/s41598-022-18316-2"
+      },
+      {
+        "title": "Sitting dynamics during computer work are age-dependent",
+        "authors": ["P Madeleine", "RZ Marandi", "KL Norheim", "JB Andersen", "A Samani"],
+        "venue": "Applied Ergonomics",
+        "year": 2021,
+        "url": "https://doi.org/10.1016/j.apergo.2021.103391"
+      },
+      {
+        "title": "A field study investigating sensory manifestations in recreational female cyclists using a novel female-specific cycling pad",
+        "authors": ["AST Larsen", "KL Norheim", "RZ Marandi", "EA Hansen", "P Madeleine"],
+        "venue": "Ergonomics",
+        "year": 2021,
+        "url": "https://doi.org/10.1080/00140139.2020.1862306"
+      },
+      {
+        "title": "A field study investigating the effects of a novel padding design in women's cycling shorts",
+        "authors": ["KL Norheim", "RZ Marandi", "AST Larsen", "EA Hansen", "PM Madeleine"],
+        "venue": "25th Annual Virtual Congress of the European College of Sports Science",
+        "year": 2020,
+        "url": ""
+      },
+      {
+        "title": "Eye movements in response to pain-related feelings in the presence of low and high cognitive loads",
+        "authors": ["R Zargari Marandi", "CA Fjelsted", "I Hrustanovic", "R Dan Olesen", "P Gazerani"],
+        "venue": "Behavioral Sciences",
+        "year": 2020,
+        "url": "https://doi.org/10.3390/bs10050092"
+      },
+      {
+        "title": "Work, aging, mental fatigue, and eye movement dynamics",
+        "authors": ["RZ Marandi"],
+        "venue": "PhD Thesis, Aalborg University",
+        "year": 2019,
+        "url": ""
+      },
+      {
+        "title": "Aging and eye tracking: in the quest for objective biomarkers",
+        "authors": ["RZ Marandi", "P Gazerani"],
+        "venue": "Future Neurology",
+        "year": 2019,
+        "url": "https://doi.org/10.2217/fnl-2019-0012"
+      },
+      {
+        "title": "An oculometrics-based biofeedback system to impede fatigue development during computer work: A proof-of-concept study",
+        "authors": ["RZ Marandi", "P Madeleine", "Ø Omland", "N Vuillerme", "A Samani"],
+        "venue": "PLoS One",
+        "year": 2019,
+        "url": "https://doi.org/10.1371/journal.pone.0213704"
+      },
+      {
+        "title": "Ocular-based biofeedback to impede fatigue during computer work",
+        "authors": ["RZ Marandi", "PM Madeleine", "N Vuillerme", "A Samani"],
+        "venue": "Kick-off: AI for the people",
+        "year": 2019,
+        "url": ""
+      },
+      {
+        "title": "Sitting dynamics are age-dependent during computer work",
+        "authors": ["PM Madeleine", "RZ Marandi", "KL Norheim", "A Samani"],
+        "venue": "PREMUS 2019 10th International Scientific Conference",
+        "year": 2019,
+        "url": ""
+      },
+      {
+        "title": "Improved Planning for Active Pauses during Computer Work via Ocular Biofeedback",
+        "authors": ["A Samani", "RZ Marandi", "PM Madeleine", "Ø Omland", "N Vuillerme"],
+        "venue": "PREMUS 2019 10th International Scientific Conference",
+        "year": 2019,
+        "url": ""
+      },
+      {
+        "title": "Travail, vieillissement, fatigue mentale et dynamique des mouvements oculaires",
+        "authors": ["RZ Marandi"],
+        "venue": "Université Grenoble Alpes",
+        "year": 2019,
+        "url": ""
+      },
+      {
+        "title": "Eye movement characteristics reflected fatigue development in both young and elderly individuals",
+        "authors": ["R Zargari Marandi", "P Madeleine", "Ø Omland", "N Vuillerme", "A Samani"],
+        "venue": "Scientific Reports",
+        "year": 2018,
+        "url": "https://doi.org/10.1038/s41598-018-31577-1"
+      },
+      {
+        "title": "Reliability of oculometrics during a mentally demanding task in young and old adults",
+        "authors": ["RZ Marandi", "P Madeleine", "Ø Omland", "N Vuillerme", "A Samani"],
+        "venue": "IEEE Access",
+        "year": 2018,
+        "url": "https://doi.org/10.1109/ACCESS.2018.2381500"
+      },
+      {
+        "title": "Heart rate monitoring for the detection of changes in mental demands during computer work",
+        "authors": ["R Zargari Marandi", "P Madeleine", "N Vuillerme", "A Samani"],
+        "venue": "World Congress on Medical Physics and Biomedical Engineering 2018",
+        "year": 2018,
+        "url": ""
+      },
+      {
+        "title": "Early detection of fatigue based on heart rate in sedentary computer work in young and old adults",
+        "authors": ["RZ Marandi", "P Madeleine", "N Vuillerme", "Ø Omland", "A Samani"],
+        "venue": "Congress of the International Ergonomics Association",
+        "year": 2018,
+        "url": ""
+      },
+      {
+        "title": "Characterization of the dynamics of sitting during a sustained and mentally demanding computer task",
+        "authors": ["P Madeleine", "RZ Marandi", "KL Norheim", "N Vuillerme", "A Samani"],
+        "venue": "Congress of the International Ergonomics Association",
+        "year": 2018,
+        "url": ""
+      },
+      {
+        "title": "Analysis of folk music preference of people from different ethnic groups using kernel-based methods on EEG signals",
+        "authors": ["A Bajoulvand", "RZ Marandi", "MR Daliri", "SH Sabzpoushan"],
+        "venue": "Applied Mathematics and Computation",
+        "year": 2017,
+        "url": "https://doi.org/10.1016/j.amc.2017.02.041"
+      },
+      {
+        "title": "The level of mental load during a functional task is reflected in oculometrics",
+        "authors": ["RZ Marandi", "A Samani", "P Madeleine"],
+        "venue": "European Medical and Biological Engineering Conference",
+        "year": 2017,
+        "url": ""
+      },
+      {
+        "title": "How oculometrics could reflect alterations in mental demands",
+        "authors": ["RZ Marandi", "P Madeleine", "KL Norheim", "N Vuillerme", "Ø Omland", "A Samani"],
+        "venue": "Program & Abstracts, 9th Annual Meeting of the Danish Society",
+        "year": 2017,
+        "url": ""
+      },
+      {
+        "title": "Handgrip strength characteristics among manual workers aged 50-70 years",
+        "authors": ["KL Norheim", "JH Bønløkke", "RZ Marandi", "Ø Omland", "A Samani", "PM Madeleine"],
+        "venue": "Program & Abstracts, 9th Annual Meeting of the Danish Society",
+        "year": 2017,
+        "url": ""
+      },
+      {
+        "title": "Ageing among building and construction workers: a study protocol",
+        "authors": ["GK Jeppesen", "JH Bønløkke", "RZ Marandi", "Ø Omland", "A Samani", "PM Madeleine"],
+        "venue": "Program & Abstracts, 8th Annual Meeting of the Danish Society",
+        "year": 2016,
+        "url": ""
+      },
+      {
+        "title": "Towards mental fatigue detection from physiological and behavioral signals during computer work considering the aging effect",
+        "authors": ["RZ Marandi", "P Madeleine", "GK Jeppesen", "N Vuillerme", "A Samani"],
+        "venue": "Program & Abstracts, 8th Annual Meeting of the Danish Society",
+        "year": 2016,
+        "url": ""
+      },
+      {
+        "title": "Qualitative modeling of the decision-making process using electrooculography",
+        "authors": ["R Zargari Marandi", "SH Sabzpoushan"],
+        "venue": "Behavior Research Methods",
+        "year": 2015,
+        "url": "https://doi.org/10.1007/s13428-014-0549-8"
+      },
+      {
+        "title": "Using eye movement analysis to study auditory effects on visual memory recall",
+        "authors": ["RZ Marandi", "SH Sabzpoushan"],
+        "venue": "Basic and Clinical Neuroscience",
+        "year": 2014,
+        "url": "https://doi.org/10.15412/J.BCN.03050105"
+      },
+      {
+        "title": "Visual Cue Effects on Individual's Response Prediction to Intelligence Questions Using Eye Movement Analysis",
+        "authors": ["N Falah", "R Zargari Marandi", "SH Sabzpoushan"],
+        "venue": "IOSR Journal of Electrical and Electronics Engineering",
+        "year": 2014,
+        "url": ""
+      },
+      {
+        "title": "Improving Reading Activity Recognition in Daily Life Situations Using DTW-Based String Matching Algorithm in EOG Signal Processing",
+        "authors": ["R Zargari Marandi", "SH Sabzpoushan"],
+        "venue": "Iranian Journal of Biomedical Engineering",
+        "year": 2013,
+        "url": ""
+      },
+      {
+        "title": "Individual's Response Prediction to Proposed Questions Using Their Eye Movement Analysis",
+        "authors": ["N Falah", "R Zargari Marandi", "SH Sabzpoushan"],
+        "venue": "Basic and Clinical Neuroscience (BCNC)",
+        "year": 2013,
+        "url": ""
+      },
+      {
+        "title": "Improving reading activity recognition in daily life situations using DWT-based string matching algorithms in EOG signal processing",
+        "authors": ["RZ Marandi", "H Sabzpoushan"],
+        "venue": "Iranian Journal of Biomedical Engineering",
+        "year": 2013,
+        "url": ""
+      },
+      {
+        "title": "Reading Activity Recognition Using Electrical Signals Originated From Eye Movements in People's Daily Life Situations",
+        "authors": ["R Zargari Marandi", "SH Sabzpoushan"],
+        "venue": "Iranian Conference on Biomedical Engineering",
+        "year": 2012,
+        "url": ""
+      }
+    ]
+  },
+  "experience": [
+    {
+      "title": "MLOps Engineer",
+      "company": "Scalepoint",
+      "location": "Denmark",
+      "duration": "Feb 2025 – Present",
+      "current": true,
+      "description": "Engineered and deployed production-grade AI/ML solutions for insurance automation, including LLMs. Automated end-to-end model lifecycles using CI/CD and containerized microservices. Aligned AI development with regulatory standards, ensuring compliance, monitoring, and reproducibility."
+    },
+    {
+      "title": "Postdoctoral Researcher",
+      "company": "Rigshospitalet (CHIP Centre of Excellence)",
+      "location": "Copenhagen, Denmark",
+      "duration": "Nov 2019 – Jan 2025",
+      "current": false,
+      "description": "• Developed an open-source Python framework (medical artificial intelligence toolbox - MAIT) for ML workflows, enhancing model interpretability and reproducibility.\n• Created the ExplaineR CRAN package, leveraging SHAP for explainable AI.\n• Designed and implemented ML models in international cohort studies, emphasizing patient safety while adhering to responsible AI guidelines.\n• Streamlined reproducible research using Docker, GIT, and HPC clusters for GPU-based jobs.\n• Managed Agile project milestones with Azure DevOps.\n• Conducted research on precision medicine and causal ML in infectious disease, microbiome, oncology, and clinical microbiology.\n• Contributed to teaching, supervision, and grant writing."
+    },
+    {
+      "title": "Research Assistant",
+      "company": "Aalborg University",
+      "location": "Aalborg, Denmark",
+      "duration": "Mar 2019 - Nov 2019",
+      "current": false,
+      "description": "• Developed an NLP-integrated survey platform for sentiment analysis."
+    },
+    {
+      "title": "PhD Fellow",
+      "company": "Aalborg University",
+      "location": "Aalborg, Denmark",
+      "duration": "Feb 2016 - Feb 2019",
+      "current": false,
+      "description": "• Designed an ML-powered biofeedback system for personalized fatigue reduction.\n• Conducted research on cardiac signal processing and ergonomics using motion capture systems."
+    },
+    {
+      "title": "Visiting Lecturer and Research Assistant",
+      "company": "Iran University of Science and Technology",
+      "location": "Tehran, Iran",
+      "duration": "Jan 2013 - Jan 2016",
+      "current": false,
+      "description": "• Conducted research on multimodal emotion recognition using EEG and other physiological signals.\n• Delivered undergraduate courses in electrical engineering fundamentals and digital electronics."
+    },
+    {
+      "title": "Technical Consultant (Freelance)",
+      "company": "Freelance",
+      "location": "Tehran, Iran",
+      "duration": "Nov 2008 - Jan 2013",
+      "current": false,
+      "description": "• Provided R&D consulting in energy efficiency (smart lighting), healthcare engineering (automation of medical data handling), and sustainable design (urban utility tunnels), primarily for training courses and seminars served for municipalities."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Ph.D. Biomedical Science & Engineering",
+      "institution": "Aalborg University",
+      "location": "Denmark",
+      "year": "2016–2019",
+      "thesis": "Real-time AI-driven fatigue detection using oculometric data"
+    },
+    {
+      "degree": "M.Sc. Biomedical Engineering",
+      "institution": "Iran University of Science & Technology",
+      "location": "Iran",
+      "year": "2010–2013",
+      "focus": "Eye movement signal processing for cognitive tasks"
+    },
+    {
+      "degree": "B.Sc. Electrical Engineering",
+      "institution": "Shahid Rajaee University",
+      "location": "Iran",
+      "year": "2004–2008",
+      "focus": "Optimized control using genetic algorithms"
+    }
+  ],
+  "skills": {
+    "languages": ["Python", "R", "SQL", "MATLAB", "Bash", "C++", "Java"],
+    "mlAi": ["Scikit-learn", "PyTorch", "TensorFlow", "MLflow", "XAI (SHAP)", "Causal ML", "LLMs (PEFT, RLHF)"],
+    "mlops": ["Kubeflow", "Spark", "DataBricks", "GitHub Actions", "DVC", "MLflow", "Dagster"],
+    "infrastructure": ["Docker", "Kubernetes", "Rancher", "Terraform", "CI/CD (GitLab/GitHub)"],
+    "cloud": ["AWS (incl. SageMaker)", "GCP", "Azure"],
+    "data": ["Pandas", "Tidyverse", "dbt", "Plotly", "Snowflake", "Lake Formation"]
+  },
+  "awards": [
+    {
+      "title": "Best Scientific Poster",
+      "organization": "PERSIMUNE Retreat, Denmark",
+      "year": 2022
+    },
+    {
+      "title": "Research Exchange Grant",
+      "organization": "Aalborg University",
+      "year": 2019
+    },
+    {
+      "title": "Top 1% – National University Admission Exams",
+      "organization": "Iran",
+      "year": "2004, 2010, 2013"
+    }
+  ],
+  "affiliations": [
+    {
+      "title": "Affiliated Researcher",
+      "organization": "Pioneer Centre for Artificial Intelligence",
+      "year": "2024–"
+    },
+    {
+      "title": "Mentor, AI/ML",
+      "organization": "Danish Data Science Academy",
+      "year": "2024–"
+    }
+  ],
+  "languages": {
+    "English": "Fluent",
+    "Danish": "PD3",
+    "Persian": "Native",
+    "Arabic": "Elementary"
+  },
+  "lastUpdated": "2025-07-06T00:00:00Z",
+  "teaching": {
+    "mentoring": [
+      {
+        "role": "AI/ML Mentor",
+        "organization": "Danish Data Science Academy",
+        "duration": "2024–Present",
+        "description": "Mentored data science professionals in AI and machine learning applications, focusing on practical insights for industry use."
+      }
+    ],
+    "supervision": [
+      {
+        "level": "PhD Project Co-Supervision",
+        "title": "Prognostic Agents from Gut Microbiome in CLL Patients",
+        "institution": "Copenhagen University",
+        "duration": "2023–2024"
+      }
+    ],
+    "courses": [
+      {
+        "role": "PhD Course Co-Instructor",
+        "title": "Introduction to Machine Learning in Biomedical Research",
+        "institution": "Copenhagen University",
+        "duration": "2 semesters, 2022–2023"
+      },
+      {
+        "role": "MSc Project Course",
+        "title": "Feature Engineering for Microbiome Data",
+        "institution": "CHIP/DTU",
+        "duration": "2023"
+      },
+      {
+        "role": "MSc & Undergraduate Courses",
+        "title": "Analysis of Eye Movements Associated with Pain Stimuli",
+        "institution": "Aalborg University",
+        "duration": "2018–2019"
+      },
+      {
+        "role": "Undergraduate Courses",
+        "title": "Fundamentals of Electrical Engineering",
+        "institution": "IUST",
+        "duration": "2 semesters, 2015–2016"
+      },
+      {
+        "role": "Laboratory Instructor",
+        "title": "Digital Electronics and Electronic Circuits Labs",
+        "institution": "Payam Nour University",
+        "duration": "2 semesters, 2015–2016"
+      }
+    ]
+  },
+  "presentations": [
+    {
+      "year": 2024,
+      "events": [
+        {
+          "title": "Explainer Package in R",
+          "event": "Danish Digitalization, Data Science and AI 1.0",
+          "location": "Nyborg, Denmark"
+        },
+        {
+          "title": "Explainer Package in R", 
+          "event": "EMBL Symposium – AI and Biology",
+          "location": "Heidelberg, Germany"
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "events": [
+        {
+          "title": "Machine Learning and Deep Learning for Metagenomic Data in Prediction of aGvHD",
+          "event": "The Barcelona Debates on the Human Microbiome",
+          "location": "Barcelona, Spain",
+          "type": "Invited talk"
+        },
+        {
+          "title": "Explainable ML model for prediction of e-faecium infection",
+          "event": "IDWEEK",
+          "location": "Boston, USA"
+        }
+      ]
+    },
+    {
+      "year": 2022,
+      "events": [
+        {
+          "title": "Machine Learning in Various Healthcare Projects",
+          "event": "Roche Research Camp",
+          "location": "Paris, France",
+          "type": "Invited collaboration"
+        },
+        {
+          "title": "Machine Learning in Prediction of Plasma Leakage",
+          "event": "IDWEEK",
+          "location": "Washington, DC, USA"
+        }
+      ]
+    },
+    {
+      "year": 2021,
+      "events": [
+        {
+          "title": "Attended conference",
+          "event": "Danish Bioinformatics Conference",
+          "location": "Aalborg, Denmark"
+        }
+      ]
+    },
+    {
+      "year": 2019,
+      "events": [
+        {
+          "title": "PhD Exchange",
+          "event": "University Grenoble-Alpes, Doctoral School of Health, Cognition and Environmental Engineering",
+          "location": "Grenoble, France"
+        }
+      ]
+    },
+    {
+      "year": 2018,
+      "events": [
+        {
+          "title": "Dynamics of Sitting during a Mentally Demanding Computer Task",
+          "event": "Congress of the International Ergonomics Association",
+          "location": "Florence, Italy"
+        },
+        {
+          "title": "Early Detection of Fatigue Based on Heart Rate in Sedentary Computer Work",
+          "event": "PREMUS 2019",
+          "location": "Florence, Italy"
+        }
+      ]
+    },
+    {
+      "year": 2017,
+      "events": [
+        {
+          "title": "Mental Load on Oculometrics",
+          "event": "European Medical and Biological Engineering Conference",
+          "location": "Tampere, Finland"
+        }
+      ]
+    },
+    {
+      "year": 2013,
+      "events": [
+        {
+          "title": "Individual's Response Prediction to Proposed Questions Using Their Eye Movement Analysis",
+          "event": "2nd Basic and Clinical Neuroscience Congress (BCNC)",
+          "location": "Tehran, Iran"
+        }
+      ]
+    },
+    {
+      "year": 2012,
+      "events": [
+        {
+          "title": "A Survey on Familiarity Effect on Spatial Dispersion of Gaze Pattern",
+          "event": "1st Basic and Clinical Neuroscience Congress (BCNC)",
+          "location": "Tehran, Iran"
+        },
+        {
+          "title": "Reading Activity Recognition Using Electrical Signals Originated From Eye Movements in People's Daily Life Situations",
+          "event": "19th Iranian Conference on Biomedical Engineering",
+          "location": "Tehran, Iran"
+        }
+      ]
+    }
+  ],
+  "certifications": {
+    "dataScience": [
+      "Artificial Neural Networks",
+      "Statistical Pattern Recognition", 
+      "Multivariate Data Analysis",
+      "Biostatistics",
+      "The Data Scientist's Toolbox",
+      "ChatGPT Prompt Engineering for Developers",
+      "Neural Networks and Deep Learning",
+      "Machine Learning with Python",
+      "R Programming",
+      "Scientific Computing using Python"
+    ],
+    "it": [
+      "Fundamentals of Red Hat Enterprise Linux",
+      "Agile Project Leadership", 
+      "Learning Kubernetes"
+    ],
+    "clinical": [
+      "Quantitative Research within the Health Sciences",
+      "Physical Activity and Human Performance",
+      "Advanced Topics in Translational Neuroscience",
+      "Bioethics",
+      "Introduction to Clinical Data Science",
+      "Getting and Cleaning Data",
+      "Precision Medicine – From Patient to Lab and Back Again",
+      "Physical Activity for Neuromuscular Health in a Life Span",
+      "Clinical Research",
+      "Nociception and Motor Control",
+      "Introduction to Genomic Technologies"
+    ],
+    "biomedical": [
+      "Digital Signal Processing",
+      "Digital Control Systems",
+      "Electrophysiology",
+      "Biomedical Instruments",
+      "Biological Signal Processing",
+      "Biological Systems Modeling and Simulation",
+      "Neuroscience",
+      "Chaos and Nonlinear Dynamics"
+    ],
+    "general": [
+      "The Art of Scientific Presentations: Design and Delivery",
+      "Intellectual Property Rights",
+      "International Scientific Networking",
+      "Communicating with Confidence",
+      "Impromptu Speaking",
+      "Feasibility Assessment of Industrial Projects",
+      "Grant writing"
+    ]
+  },
+  "researchInterests": [
+    "Explainable AI",
+    "Healthcare technologies", 
+    "Precision medicine",
+    "MLOps"
+  ],
+  "mediaCoverage": [
+    {
+      "title": "Fremtidens computer - AAU teknologi slår alarm når du er træt",
+      "outlet": "Nordjyske",
+      "url": "https://nordjyske.dk/plus/samfund/her-er-fremtidens-computer-aau-teknologi-slaar-alarm-naar-du-er-traet/8a1d0b90-1d1c-4fb5-8231-b8f64c43fea6"
+    },
+    {
+      "title": "Scalepoint AI Innovation",
+      "outlet": "LinkedIn - Scalepoint",
+      "url": "https://www.linkedin.com/posts/scalepoint_nu-l%C3%B8fter-vi-barren-for-tilfredshed-igen-activity-7339259866839945216-OJVW"
+    },
+    {
+      "title": "AI Development at Scalepoint",
+      "outlet": "LinkedIn - Scalepoint", 
+      "url": "https://www.linkedin.com/posts/scalepoint_de-hurtige-fremskridt-inden-for-ai-s%C3%A6rligt-activity-7312798640014602241-gKsj"
+    },
+    {
+      "title": "CHIP & PERSIMUNE Research Video",
+      "outlet": "YouTube",
+      "url": "https://www.youtube.com/watch?v=3ZxA9jQLdHY&ab_channel=CHIP%26PERSIMUNE"
+    }
+  ],
+  "peerReview": {
+    "totalReviews": 25,
+    "categories": {
+      "multidisciplinary": [
+        "Scientific Reports",
+        "PeerJ", 
+        "PLOS ONE"
+      ],
+      "biomedical": [
+        "Clinical and Translational Neuroscience",
+        "Healthcare",
+        "Diagnostics",
+        "Brain Sciences",
+        "International Journal of Environmental Research and Public Health",
+        "Frontiers in Neuroscience",
+        "Health Science Reports"
+      ],
+      "engineering": [
+        "IEEE Transactions on Affective Computing",
+        "International Journal of Industrial Ergonomics",
+        "Medical & Biological Engineering & Computing",
+        "Sensors"
+      ],
+      "cognitive": [
+        "Applied Cognitive Psychology",
+        "Frontiers in Psychology"
+      ]
+    }
+  }
+}

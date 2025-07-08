@@ -1,0 +1,55 @@
+{
+  "profile": {
+    "name": "Ramtin Zargari Marandi",
+    "bio": "Data Scientist & Researcher specialized in AI/ML and Healthcare Applications",
+    "location": "Copenhagen, Denmark",
+    "company": "Rigshospitalet, CHIP Center of Excellence",
+    "public_repos": 28,
+    "followers": 45,
+    "following": 23,
+    "avatar_url": "https://avatars.githubusercontent.com/u/ramtinz",
+    "html_url": "https://github.com/ramtinz"
+  },
+  "repositories": [
+    {
+      "name": "MAIT",
+      "description": "Open-source Python platform for reproducible medical AI",
+      "url": "https://github.com/PERSIMUNE/MAIT",
+      "demo": "https://persimune.github.io/MAIT/intro.html",
+      "stars": 25,
+      "forks": 8,
+      "language": "Python",
+      "updated": "2024-12-15"
+    },
+    {
+      "name": "explainer",
+      "description": "R package for explaining machine learning models",
+      "url": "https://github.com/PERSIMUNE/explainer",
+      "demo": "https://persimune.github.io/explainer/",
+      "stars": 15,
+      "forks": 3,
+      "language": "R",
+      "updated": "2024-11-20"
+    },
+    {
+      "name": "DAIMS",
+      "description": "Data Analysis and Interpretation for Medical Studies",
+      "url": "https://github.com/PERSIMUNE/DAIMS",
+      "demo": "https://daims-app.streamlit.app/",
+      "stars": 12,
+      "forks": 4,
+      "language": "Python",
+      "updated": "2024-10-05"
+    },
+    {
+      "name": "ramtinz.github.io",
+      "description": "Dynamic portfolio website with auto-updating data integration",
+      "url": "https://github.com/ramtinz/ramtinz.github.io",
+      "stars": 5,
+      "forks": 1,
+      "language": "HTML",
+      "updated": "2025-07-06"
+    }
+  ],
+  "fetchedAt": "$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+}

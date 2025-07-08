@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramtin Zargari Marandi - Data Scientist & Researcher</title>
+    
+    <!-- External Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.24/vanta.birds.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+    
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Meta Tags -->
+    <meta name="description" content="Ramtin Zargari Marandi - Data Scientist and Researcher specialized in AI/ML, Healthcare Applications, and Explainable AI">
+    <meta name="keywords" content="Data Science, Machine Learning, AI, Healthcare, Explainable AI, Biomedical Engineering">
+    <meta name="author" content="Ramtin Zargari Marandi">
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Ramtin Zargari Marandi - Data Scientist & Researcher">
+    <meta property="og:description" content="Data Scientist specialized in AI/ML and Healthcare Applications">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ramtinz.github.io">
+    <meta property="og:image" content="https://ramtinz.github.io/assets/images/rzm.jpg">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="loader">
+            <div class="spinner"></div>
+            <p>Loading Profile Data...</p>
+        </div>
+    </div>
+
+    <!-- Header with Dynamic Background -->
+    <header id="dynamic-header" class="hero-section">
+        <div class="hero-overlay">
+            <div class="hero-content">
+                <div class="profile-image-container">
+                    <img id="profile-image" src="assets/images/rzm.jpg" alt="Ramtin Zargari Marandi" class="profile-image">
+                    <div class="online-indicator" title="Profile Auto-Updated"></div>
+                </div>
+                <div class="hero-text">
+                    <h1 id="profile-name">Ramtin Zargari Marandi, PhD</h1>
+                    <h2 id="profile-title">Data Scientist & Researcher</h2>
+                    <p id="profile-location"><i class="fas fa-map-marker-alt"></i> Copenhagen, Denmark</p>
+                    <div class="social-links">
+                        <a href="https://github.com/ramtinz" target="_blank" class="social-link github">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/rzm" target="_blank" class="social-link linkedin">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://bit.ly/RamtinGS" target="_blank" class="social-link scholar">
+                            <i class="fas fa-graduation-cap"></i>
+                        </a>
+                        <a href="https://orcid.org/0000-0001-9233-1656" target="_blank" class="social-link orcid">
+                            <i class="fab fa-orcid"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <img src="assets/images/rzm.jpg" alt="RZM" class="nav-logo">
+                <span>RZM</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#stats" class="nav-link">Stats</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#publications" class="nav-link">Publications</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#awards" class="nav-link">Awards</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p id="profile-bio">
+                            Data scientist and researcher with expertise in AI and machine learning, 
+                            specialized in healthcare applications. Proficient in Python, R, and 
+                            cloud-based platforms, leveraging genetic and clinical data to develop 
+                            predictive and explainable models.
+                        </p>
+                        <div class="skills-grid">
+                            <div class="skill-category">
+                                <h3>Programming</h3>
+                                <div class="skill-tags">
+                                    <span class="skill-tag">Python</span>
+                                    <span class="skill-tag">R</span>
+                                    <span class="skill-tag">SQL</span>
+                                    <span class="skill-tag">JavaScript</span>
+                                </div>
+                            </div>
+                            <div class="skill-category">
+                                <h3>AI/ML</h3>
+                                <div class="skill-tags">
+                                    <span class="skill-tag">Machine Learning</span>
+                                    <span class="skill-tag">Deep Learning</span>
+                                    <span class="skill-tag">Explainable AI</span>
+                                    <span class="skill-tag">SHAP</span>
+                                </div>
+                            </div>
+                            <div class="skill-category">
+                                <h3>Cloud & Tools</h3>
+                                <div class="skill-tags">
+                                    <span class="skill-tag">AWS</span>
+                                    <span class="skill-tag">Docker</span>
+                                    <span class="skill-tag">Kubernetes</span>
+                                    <span class="skill-tag">Git</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Live Stats Section -->
+        <section id="stats" class="section stats-section">
+            <div class="container">
+                <h2 class="section-title">Live Statistics</h2>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="stat-content">
+                            <h3 id="github-repos">0</h3>
+                            <p>GitHub Repositories</p>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <div class="stat-content">
+                            <h3 id="scholar-citations">0</h3>
+                            <p>Research Citations</p>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="stat-content">
+                            <h3 id="scholar-hindex">0</h3>
+                            <p>h-Index</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="last-updated">
+                    <p><i class="fas fa-sync-alt"></i> Last updated: <span id="last-updated-time">Loading...</span></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="container">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="projects-grid" id="projects-grid">
+                    <!-- Projects will be loaded dynamically -->
+                </div>
+                <div class="text-center">
+                    <a href="https://github.com/ramtinz" target="_blank" class="btn-primary">
+                        <i class="fab fa-github"></i> View All Projects
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Publications Section -->
+        <section id="publications" class="section">
+            <div class="container">
+                <h2 class="section-title">Recent Publications</h2>
+                <div class="publications-list" id="publications-list">
+                    <!-- Publications will be loaded dynamically -->
+                </div>
+                <div class="text-center">
+                    <a href="https://bit.ly/RamtinGS" target="_blank" class="btn-primary">
+                        <i class="fas fa-graduation-cap"></i> View All Publications
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Peer Review Section -->
+        <section id="peer-review" class="section">
+            <div class="container">
+                <h2 class="section-title">Peer Review Activity</h2>
+                <div id="peer-review-container">
+                    <!-- Peer review data will be loaded dynamically -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="container">
+                <h2 class="section-title">Get in Touch</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>ramtin [dot] zargari [at] gmail [dot] com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Copenhagen, Denmark</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section">
+            <div class="container">
+                <h2 class="section-title">Professional Experience</h2>
+                <div class="experience-list" id="experience-list">
+                    <!-- Experience will be loaded dynamically -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Awards & Recognition Section -->
+        <section id="awards" class="section">
+            <div class="container">
+                <h2 class="section-title">Awards & Recognition</h2>
+                <div class="awards-list" id="awards-list">
+                    <!-- Awards will be loaded dynamically -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Affiliations Section -->
+        <section id="affiliations" class="section">
+            <div class="container">
+                <h2 class="section-title">Professional Affiliations</h2>
+                <div class="affiliations-list" id="affiliations-list">
+                    <!-- Affiliations will be loaded dynamically -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Teaching & Supervision Section -->
+        <section id="teaching" class="section">
+            <div class="container">
+                <h2 class="section-title">Teaching & Supervision</h2>
+                <div id="teaching-section">
+                    <!-- Teaching data will be loaded dynamically -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Presentations Section -->
+        <section id="presentations" class="section">
+            <div class="container">
+                <h2 class="section-title">Recent Conference Presentations</h2>
+                <div id="presentations-section">
+                    <!-- Presentations will be loaded dynamically -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section id="certifications" class="section">
+            <div class="container">
+                <h2 class="section-title">Licenses & Certifications</h2>
+                <div id="certifications-section">
+                    <!-- Certifications will be loaded dynamically -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Media Coverage Section -->
+        <section id="media" class="section">
+            <div class="container">
+                <h2 class="section-title">Media Coverage & News</h2>
+                <div id="media-section">
+                    <!-- Media coverage will be loaded dynamically -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Volunteering Section -->
+        <section id="volunteering" class="section">
+            <div class="container">
+                <h2 class="section-title">Volunteering Experience</h2>
+                <div id="volunteering-section" class="volunteering-list">
+                    <!-- Volunteering data will be loaded dynamically -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Page Analytics Section -->
+        <section id="analytics" class="section analytics-section">
+            <div class="container">
+                <h2 class="section-title">Page Analytics</h2>
+                <div class="analytics-grid">
+                    <div class="analytics-card">
+                        <div class="analytics-icon">
+                            <i class="fas fa-eye"></i>
+                        </div>
+                        <div class="analytics-content">
+                            <h3 id="page-views">0</h3>
+                            <p>Page Views</p>
+                        </div>
+                    </div>
+                    <div class="analytics-card">
+                        <div class="analytics-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="analytics-content">
+                            <h3 id="unique-visitors">0</h3>
+                            <p>Unique Visitors</p>
+                        </div>
+                    </div>
+                    <div class="analytics-card">
+                        <div class="analytics-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <div class="analytics-content">
+                            <h3 id="countries-count">0</h3>
+                            <p>Countries</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="visitors-map">
+                    <h3>Visitors by Country</h3>
+                    <div id="country-stats" class="country-stats">
+                        <!-- Country statistics will be loaded dynamically -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Ramtin Zargari Marandi</h3>
+                    <p>Data Scientist & Researcher</p>
+                    <div class="social-links">
+                        <a href="https://github.com/ramtinz" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://linkedin.com/in/rzm" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://bit.ly/RamtinGS" target="_blank"><i class="fas fa-graduation-cap"></i></a>
+                        <a href="https://orcid.org/0000-0001-9233-1656" target="_blank"><i class="fab fa-orcid"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#publications">Publications</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Research Areas</h3>
+                    <ul>
+                        <li>Explainable AI</li>
+                        <li>Healthcare AI</li>
+                        <li>Machine Learning</li>
+                        <li>Biomedical Engineering</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Ramtin Zargari Marandi. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <script>
+        // Initialize VANTA.BIRDS background
+        VANTA.BIRDS({
+            el: "#dynamic-header",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 400.00,
+            minWidth: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00,
+            birdSize: 1.50,
+            wingSpan: 40.00,
+            speedLimit: 5.00,
+            separation: 100.00,
+            alignment: 20.00,
+            cohesion: 20.00,
+            quantity: 3.00,
+            backgroundColor: 0x05051e,
+            color1: 0x4a90e2,
+            color2: 0x7b68ee
+        });
+    </script>
+</body>
+</html>

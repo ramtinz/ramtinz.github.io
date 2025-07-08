@@ -1,0 +1,154 @@
+{
+  "profile": {
+    "name": "Ramtin Zargari Marandi, PhD",
+    "headline": "Senior Data Scientist & AI Engineer | MLOps Expert | Healthcare Applications",
+    "location": "Copenhagen, Denmark",
+    "summary": "Senior data scientist and AI engineer with a PhD in biomedical engineering. Over the past decade, I have contributed to designing and developing several AI systems, using genetic and clinical data, as well as implementing scalable, efficient software solutions for complex data workflows. I have extensive experience with Python, R, and cloud-based platforms, along with MLOps best practices for deploying and managing machine learning models in production."
+  },
+  "experience": [
+    {
+      "title": "MLOps Engineer",
+      "company": "Scalepoint",
+      "location": "Denmark",
+      "duration": "Feb 2025 – Present",
+      "current": true,
+      "description": "Engineered and deployed production-grade AI/ML solutions for insurance automation, including LLMs. Automated end-to-end model lifecycles using CI/CD and containerized microservices. Aligned AI development with regulatory standards, ensuring compliance, monitoring, and reproducibility. Partnered with DevOps and data teams to optimize scalability of cloud infrastructure."
+    },
+    {
+      "title": "Postdoctoral Researcher, AI & Precision Medicine",
+      "company": "Rigshospitalet – CHIP Centre of Excellence",
+      "location": "Denmark",
+      "duration": "Nov 2019 – Jan 2025",
+      "current": false,
+      "description": "Led the design and deployment of MAIT, an open-source Python platform for reproducible medical AI. Created ExplaineR (CRAN), integrating SHAP for transparent, interpretable ML in healthcare settings. Delivered AI/ML pipelines on hybrid infrastructure (Docker, Azure DevOps, HPC), ensuring auditability and traceability. Collaborated on grant writing, stakeholder engagement, and supervised junior researchers."
+    },
+    {
+      "title": "Research Assistant",
+      "company": "Aalborg University",
+      "location": "Denmark",
+      "duration": "Mar 2019 – Nov 2019",
+      "current": false,
+      "description": "Developed a sentiment-aware NLP platform integrated with survey tools."
+    },
+    {
+      "title": "PhD Fellow",
+      "company": "Aalborg University",
+      "location": "Denmark",
+      "duration": "2016 – 2019",
+      "current": false,
+      "description": "Engineered real-time ML systems for fatigue prediction, integrating sensor streams and feedback loops. Thesis: Real-time AI-driven fatigue detection using oculometric data."
+    },
+    {
+      "title": "Lecturer & Research Assistant",
+      "company": "Iran University of Science and Technology",
+      "location": "Iran",
+      "duration": "2013 – 2016",
+      "current": false,
+      "description": "Led research on multimodal emotion detection using EEG and biosignals. Taught digital electronics and signal processing to undergraduates."
+    },
+    {
+      "title": "R&D Consultant (Freelance)",
+      "company": "Various Clients",
+      "location": "Tehran, Iran",
+      "duration": "2008 – 2013",
+      "current": false,
+      "description": "Designed and implemented tech solutions in smart infrastructure and healthcare automation."
+    }
+  ],
+  "education": [
+    {
+      "degree": "Ph.D. Biomedical Science & Engineering",
+      "institution": "Aalborg University",
+      "location": "Denmark",
+      "year": "2016–2019",
+      "thesis": "Real-time AI-driven fatigue detection using oculometric data"
+    },
+    {
+      "degree": "M.Sc. Biomedical Engineering",
+      "institution": "Iran University of Science & Technology",
+      "location": "Iran",
+      "year": "2010–2013",
+      "focus": "Eye movement signal processing for cognitive tasks"
+    },
+    {
+      "degree": "B.Sc. Electrical Engineering",
+      "institution": "Shahid Rajaee University",
+      "location": "Iran",
+      "year": "2004–2008",
+      "focus": "Optimized control using genetic algorithms"
+    }
+  ],
+  "skills": [
+    "Python", "R", "SQL", "MATLAB", "Bash",
+    "Machine Learning", "Deep Learning", "MLOps",
+    "Scikit-learn", "PyTorch", "TensorFlow", "MLflow",
+    "Explainable AI", "SHAP", "LLMs (PEFT, RLHF)",
+    "Docker", "Kubernetes", "CI/CD",
+    "AWS", "GCP", "Azure",
+    "Clinical Data Analysis", "Healthcare Applications",
+    "Biomedical Engineering", "Bioinformatics"
+  ],
+  "certifications": [
+    {
+      "name": "Learning Kubernetes",
+      "issuer": "LinkedIn Learning",
+      "year": 2024
+    },
+    {
+      "name": "Introduction to Clinical Data Science",
+      "issuer": "Coursera",
+      "year": 2024
+    },
+    {
+      "name": "Agile Project Leadership",
+      "issuer": "LinkedIn Learning",
+      "year": 2024
+    },
+    {
+      "name": "ChatGPT Prompt Engineering for Developers",
+      "issuer": "DeepLearning.AI",
+      "year": 2024
+    },
+    {
+      "name": "Fundamentals of Red Hat Enterprise Linux",
+      "issuer": "edX",
+      "year": 2023
+    }
+  ],
+  "awards": [
+    {
+      "title": "Best Scientific Poster",
+      "organization": "PERSIMUNE Retreat, Denmark",
+      "year": 2022
+    },
+    {
+      "title": "Research Exchange Grant",
+      "organization": "Aalborg University",
+      "year": 2019
+    },
+    {
+      "title": "Top 1% – National University Admission Exams",
+      "organization": "Iran",
+      "year": "2004, 2010, 2013"
+    }
+  ],
+  "affiliations": [
+    {
+      "title": "Affiliated Researcher",
+      "organization": "Pioneer Centre for Artificial Intelligence",
+      "year": "2024–"
+    },
+    {
+      "title": "Mentor, AI/ML",
+      "organization": "Danish Data Science Academy",
+      "year": "2024–"
+    }
+  ],
+  "languages": {
+    "English": "Fluent",
+    "Danish": "PD3",
+    "Persian": "Native",
+    "Arabic": "Elementary"
+  },
+  "fetchedAt": "2025-07-06T00:00:00Z"
+}

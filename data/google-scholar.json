@@ -1,0 +1,143 @@
+{
+  "profile": {
+    "name": "Ramtin Zargari Marandi",
+    "affiliation": "Rigshospitalet, CHIP Center of Excellence",
+    "verified": true,
+    "interests": [
+      "Machine Learning",
+      "Explainable AI",
+      "Clinical Data Analysis",
+      "Biomedical Engineering",
+      "Healthcare Applications",
+      "Bioinformatics"
+    ],
+    "citations": 403,
+    "hIndex": 10,
+    "i10Index": 11
+  },
+  "publications": [
+    {
+      "title": "Prediction of bloodstream infection using machine learning based primarily on biochemical data",
+      "authors": ["R Zargari Marandi", "FB Hertz", "JQ Thomassen", "SC Rasmussen", "R Frikke-Schmidt", "N Frimodt-Møller", "KL Nielsen", "CR MacPherson"],
+      "venue": "Scientific Reports",
+      "year": 2025,
+      "citations": 0,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40394073/"
+    },
+    {
+      "title": "ExplaineR: an R package to explain machine learning models",
+      "authors": ["R Zargari Marandi"],
+      "venue": "Bioinformatics Advances",
+      "year": 2024,
+      "citations": 8,
+      "url": "https://doi.org/10.1093/bioadv/vbae049"
+    },
+    {
+      "title": "Development of a machine learning model for early prediction of plasma leakage in suspected dengue patients",
+      "authors": ["R Zargari Marandi", "P Leung", "C Sigera", "DD Murray", "P Weeratunga", "D Fernando", "C Rodrigo", "S Rajapakse", "CR MacPherson"],
+      "venue": "PLOS Neglected Tropical Diseases",
+      "year": 2023,
+      "citations": 15,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36913411/"
+    },
+    {
+      "title": "Pre-Transplant Prediction of Acute Graft-versus-Host Disease Using the Gut Microbiome",
+      "authors": ["R Zargari Marandi", "M Jørgensen", "EE Ilett", "JC Nørgaard", "M Noguera-Julian", "R Paredes", "JD Lundgren", "H Sengeløv", "CR MacPherson"],
+      "venue": "Cells",
+      "year": 2022,
+      "citations": 12,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36552852/"
+    },
+    {
+      "title": "Eye Movements in Response to Pain-Related Feelings in the Presence of Low and High Cognitive Loads",
+      "authors": ["R Zargari Marandi", "CA Fjelsted", "I Hrustanovic", "R Dan Olesen", "P Gazerani"],
+      "venue": "Behavioral Sciences",
+      "year": 2020,
+      "citations": 8,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32443887/"
+    },
+    {
+      "title": "An oculometrics-based biofeedback system to impede fatigue development during computer work: A proof-of-concept study",
+      "authors": ["R Zargari Marandi", "P Madeleine", "Ø Omland", "N Vuillerme", "A Samani"],
+      "venue": "PLOS ONE",
+      "year": 2019,
+      "citations": 24,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31150405/"
+    },
+    {
+      "title": "Eye movement characteristics reflected fatigue development in both young and elderly individuals",
+      "authors": ["R Zargari Marandi", "P Madeleine", "Ø Omland", "N Vuillerme", "A Samani"],
+      "venue": "Scientific Reports",
+      "year": 2018,
+      "citations": 45,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30177693/"
+    },
+    {
+      "title": "Qualitative modeling of the decision-making process using electrooculography",
+      "authors": ["R Zargari Marandi", "SH Sabzpoushan"],
+      "venue": "Behavior Research Methods",
+      "year": 2015,
+      "citations": 18,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25515839/"
+    },
+    {
+      "title": "Using eye movement analysis to study auditory effects on visual memory recall",
+      "authors": ["RZ Marandi", "SH Sabzpoushan"],
+      "venue": "Basic and Clinical Neuroscience",
+      "year": 2014,
+      "citations": 12,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25436085/"
+    }
+  ],
+  "recentPapers": [
+    {
+      "title": "Prediction of bloodstream infection using machine learning based primarily on biochemical data",
+      "year": 2025,
+      "citations": 0
+    },
+    {
+      "title": "ExplaineR: an R package to explain machine learning models",
+      "year": 2024,
+      "citations": 8
+    },
+    {
+      "title": "Development of a machine learning model for early prediction of plasma leakage in suspected dengue patients",
+      "year": 2023,
+      "citations": 15
+    },
+    {
+      "title": "Pre-Transplant Prediction of Acute Graft-versus-Host Disease Using the Gut Microbiome",
+      "year": 2022,
+      "citations": 12
+    }
+  ],
+  "peerReview": {
+    "totalReviews": 35,
+    "journals": [
+      "Scientific Reports",
+      "PLOS ONE",
+      "Bioinformatics",
+      "Journal of Medical Internet Research",
+      "Applied Sciences",
+      "Behavioral Sciences"
+    ],
+    "recentReviews": [
+      {
+        "journal": "Scientific Reports",
+        "year": 2024,
+        "count": 4
+      },
+      {
+        "journal": "PLOS ONE",
+        "year": 2024,
+        "count": 3
+      },
+      {
+        "journal": "Bioinformatics",
+        "year": 2024,
+        "count": 2
+      }
+    ]
+  },
+  "lastUpdated": "2025-01-06T00:00:00Z"
+}
