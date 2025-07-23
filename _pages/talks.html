@@ -1,3 +1,17 @@
+layout: archive
+title: "Talks and presentations"
+permalink: /talks/
+author_profile: true
+
+{% if site.talkmap_link == true %}
+
+<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
+
+{% endif %}
+
+{% for post in site.talks reversed %}
+  {% include archive-single-talk.html %}
+{% endfor %}
 ---
 layout: archive
 title: "Talks and presentations"
@@ -5,11 +19,25 @@ permalink: /talks/
 author_profile: true
 ---
 
-{% if site.talkmap_link == true %}
+# Selected Talks & Presentations
 
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
+<ul>
+<li>2024: Presented the Explainer Package in R at Danish Digitalization, Data Science and AI 1.0 (Nyborg, Denmark) and at EMBL Symposium – AI and Biology (Heidelberg, Germany)</li>
+<li>2023: Invited talk on “Machine Learning and Deep Learning for Metagenomic Data in Prediction of aGvHD” at The Barcelona Debates on the Human Microbiome (Barcelona, Spain)</li>
+<li>2023: Presented an explainable ML model for prediction of e-faecium infection at IDWEEK (Boston, USA)</li>
+<li>2022: Invited collaboration on “Machine Learning in Various Healthcare Projects” at Roche Research Camp (Paris, France)</li>
+<li>2022: Presented “Machine Learning in Prediction of Plasma Leakage” at IDWEEK (Washington, DC, USA)</li>
+<li>2021: Attended the Danish Bioinformatics Conference (Aalborg, Denmark)</li>
+<li>2019: PhD Exchange at University Grenoble-Alpes, Doctoral School of Health, Cognition and Environmental Engineering (Grenoble, France)</li>
+<li>2018: Presented on “Dynamics of Sitting during a Mentally Demanding Computer Task” at the Congress of the International Ergonomics Association (Florence, Italy)</li>
+<li>2018: Presented “Early Detection of Fatigue Based on Heart Rate in Sedentary Computer Work” at PREMUS 2019 (Florence, Italy)</li>
+<li>2017: Presented “Mental Load on Oculometrics” at the European Medical and Biological Engineering Conference (Tampere, Finland)</li>
+<li>2013: Presented “Individual’s Response Prediction to Proposed Questions Using Their Eye Movement Analysis” at the 2nd Basic and Clinical Neuroscience Congress (BCNC), (Tehran, Iran).</li>
+<li>2012: Presented “A Survey on Familiarity Effect on Spatial Dispersion of Gaze Pattern” at the 1st Basic and Clinical Neuroscience Congress (BCNC), (Tehran, Iran).</li>
+<li>2012: Presented “Reading Activity Recognition Using Electrical Signals Originated From Eye Movements in People's Daily Life Situations”, at the 19th Iranian Conference on Biomedical Engineering, (Tehran, Iran).</li>
+</ul>
 
-{% endif %}
+---
 
 {% for post in site.talks reversed %}
   {% include archive-single-talk.html %}

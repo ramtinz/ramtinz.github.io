@@ -1,3 +1,9 @@
+layout: archive
+title: "Teaching"
+permalink: /teaching/
+author_profile: true
+
+{% include base_path %}
 ---
 layout: archive
 title: "Teaching"
@@ -5,7 +11,27 @@ permalink: /teaching/
 author_profile: true
 ---
 
-{% include base_path %}
+# Teaching & Supervision
+
+<ul>
+<li>AI/ML Mentor, Danish Data Science Academy – Mentored data science professionals in AI and machine learning applications, focusing on practical insights for industry use (2024-present).</li>
+<li>PhD Project Co-Supervision: Prognostic Agents from Gut Microbiome in CLL Patients – Copenhagen University (2023–2024)</li>
+<li>PhD Course Co-Instructor: Introduction to Machine Learning in Biomedical Research – Copenhagen University (2 semesters, 2022–2023)</li>
+<li>MSc Project Course: Feature Engineering for Microbiome Data – CHIP/DTU (2023)</li>
+<li>MSc & Undergraduate Courses: Analysis of Eye Movements Associated with Pain Stimuli – Aalborg University (2018–2019)</li>
+<li>Fundamentals of Electrical Engineering – IUST (2 semesters, 2015–2016)</li>
+<li>Digital Electronics and Electronic Circuits Labs – Payam Nour University (2 semesters, 2015–2016)</li>
+<li>Workshops & Short Courses: Brain Mapping Using EEG and ERP – IBRO PhD Workshop, Shahid Beheshti University</li>
+<li>Biosignal Acquisition Systems (EEG, EMG, ECG, and EOG) – MSc Workshop, IUST</li>
+<li>Pattern Recognition in Brain Signals during Sleep Stages – MSc Project, IUST</li>
+<li>Application of Artificial Neural Networks in Mining Engineering – BSc Project, Azad University</li>
+</ul>
+
+---
+
+{% for post in site.teaching reversed %}
+  {% include archive-single.html %}
+{% endfor %}
 
 {% for post in site.teaching reversed %}
   {% include archive-single.html %}
