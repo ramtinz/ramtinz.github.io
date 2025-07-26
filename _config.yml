@@ -22,11 +22,10 @@ repository               : "ramtinz/ramtinz.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   avatar           : "profile.jpg"
-  name             : "Ramtin Zargari Marandi, PhD"
+  name             : "Ramtin Z. Marandi, PhD"
   pronouns         : "he/him"
   bio              : "Senior researcher and engineer - I'm experienced in design and implementation of AI solutions for various applications including healthcare and insurance"
   location         : "Copenhagen, Denmark"
-  employer         : "Scalepoint"
   uri              : "https://github.com/ramtinz"
   email            : "ramtin.zargari@gmail.com"
 
