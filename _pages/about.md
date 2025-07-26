@@ -1,15 +1,11 @@
 ---
 permalink: /
-title: "Welcome to my portfolio"
+title: "Welcome"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-
-Here I share some of my professional experiences and thoughts.
-
-## Profile
 
 I'm a senior data scientist and research engineer with a PhD in biomedical engineering from **Aalborg University, Denmark** (adjunct PhD program with **Grenoble University, France**).  My academic journey began with a **BSc in electrical engineering**, followed by an **MSc in biomedical engineering**.  These degrees have provided a strong foundation in artificial intelligence (AI), machine learning (ML) and biomedical engineering.
 
