@@ -21,7 +21,7 @@ repository               : "ramtinz/ramtinz.github.io"
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
-  avatar           : "profile-ramtin.jpg"
+  avatar           : "profile.jpg"
   name             : "Ramtin Zargari Marandi, PhD"
   pronouns         : "he/him"
   bio              : "Senior researcher and engineer - I'm experienced in design and implementation of AI solutions for various applications including healthcare and insurance"
