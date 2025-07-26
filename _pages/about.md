@@ -11,9 +11,7 @@ Here I share some of my professional experiences and thoughts.
 
 ## Profile
 
-## Profile
-
-I am a senior data scientist and research engineer with a PhD in biomedical engineering from **Aalborg University** (adjunct PhD program with **Grenoble University, France**).  My academic journey began with a **BSc in electrical engineering**, followed by an **MSc in biomedical engineering**.  These degrees have provided a strong foundation in artificial intelligence (AI), machine learning (ML) and biomedical engineering.
+I'm a senior data scientist and research engineer with a PhD in biomedical engineering from **Aalborg University, Denmark** (adjunct PhD program with **Grenoble University, France**).  My academic journey began with a **BSc in electrical engineering**, followed by an **MSc in biomedical engineering**.  These degrees have provided a strong foundation in artificial intelligence (AI), machine learning (ML) and biomedical engineering.
 
 Over the past decade I have contributed to designing and developing numerous AI systems based on various data including genetic and clinical data, while implementing scalable, efficient software solutions for complex data workflows.  My technical toolkit includes Python, R and cloud‑based platforms, and I adhere to MLOps best practices for deploying and managing machine‑learning models in production.  Alongside these technical skills, I have cultivated strong project management and leadership abilities, collaborating effectively with cross‑functional teams across academia and industry.
 
