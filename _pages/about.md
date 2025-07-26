@@ -1,8 +1,10 @@
 ---
-layout: archive
-title: "About"
-permalink: /about/
+permalink: /
+title: "Welcome to my portfolio"
 author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
 ---
 
 # Ramtin Zargari Marandi, PhD
@@ -29,5 +31,3 @@ I'm a senior data scientist and research engineer with a PhD in biomedical engin
 - Healthcare technologies
 - Precision medicine
 - MLOps
-
----
