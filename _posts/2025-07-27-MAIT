@@ -1,0 +1,45 @@
+---
+title: "Medical Artificial Intelligence Toolbox (MAIT)"
+date: 2025-07-27
+---
+
+![MAIT logo](https://raw.githubusercontent.com/PERSIMUNE/MAIT/main/MAITlogo.gif)
+
+## Can one toolbox solve the tedious parts of medical machine‑learning?
+
+*How do you handle tabular clinical data with dozens of risk factors, mixed variable types and a fair amount of missing values?*  
+*Which model – a logistic regression, a random forest or something deeper – performs best for survival prediction on your real-world dataset?*  
+*How do you explain your model’s decision to your PI, clinician collaborators, and reviewers?*  
+*What’s the threshold that optimizes your decision-making? How confident are you about it?*  
+*Can you avoid writing 500 lines of preprocessing, cross-validation, hyperparameter tuning and calibration code – again?*
+
+If these questions sound familiar, **MAIT** might be a tool worth knowing.
+
+---
+
+## 🧰 What is MAIT?
+
+[MAIT](https://github.com/PERSIMUNE/MAIT) (Medical Artificial Intelligence Toolbox) is a streamlined, opinionated machine-learning pipeline built to simplify and standardize predictive modeling in medical research. It is designed for domain scientists and ML engineers alike, aiming to balance flexibility, interpretability, and reproducibility.
+
+MAIT tackles common tasks in health data science:
+
+- binary classification
+- survival prediction
+- regression
+- semi-supervised learning for censored data
+
+If you’re building predictive models in healthcare, it’s worth giving MAIT a try.
+
+---
+
+## 🚀 Get started
+
+- GitHub: [github.com/PERSIMUNE/MAIT](https://github.com/PERSIMUNE/MAIT)
+- Docs: [persimune.github.io/MAIT](https://persimune.github.io/MAIT/)
+- Paper: [arxiv.org/pdf/2501.04547](https://arxiv.org/pdf/2501.04547)
+
+---
+
+## 📌 Tags
+
+`#MAIT` `#machinelearning` `#healthcareAI` `#survivalmodels` `#interpretableAI` `#python` `#reproducibility` `#clinicalAI` `#openSource`
