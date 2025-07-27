@@ -1,0 +1,22 @@
+---
+layout: archive
+title: "Portfolio"
+permalink: /portfolio/
+author_profile: true
+---
+
+<ul>
+<li>Medical Artificial Intelligence Toolbox (MAIT): Open-source Python framework for ML workflows, model interpretability, and reproducibility.</li>
+<li>ExplaineR CRAN package: R package leveraging SHAP for explainable AI.</li>
+<li>Datasheets for AI and Medical Datasets (DAIMS): Data validation and documentation framework for medical research.</li>
+<li>ML-powered biofeedback system for personalized fatigue reduction.</li>
+<li>NLP-integrated survey platform for sentiment analysis.</li>
+<li>Development of ML models for international cohort studies in precision medicine.</li>
+<li>End-to-end AI solutions for insurance claim handling.</li>
+<li>Agile project management and reproducible research using Docker, GIT, and HPC clusters.</li>
+</ul>
+
+{% for post in site.portfolio %}
+  {% include archive-single.html %}
+{% endfor %}
+

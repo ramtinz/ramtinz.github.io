@@ -1,0 +1,96 @@
+---
+layout: archive
+title: "Talks and presentations"
+permalink: /talks/
+author_profile: true
+---
+
+{% if site.talkmap_link == true %}
+<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
+{% endif %}
+
+
+<div class="talks-timeline">
+  <div class="timeline-bar"></div>
+  <div class="timeline-list">
+    <div class="timeline-item"><span class="timeline-year">2024</span><div class="timeline-content">Presented the Explainer Package in R at <strong>Danish Digitalization, Data Science and AI 1.0</strong> (Nyborg, Denmark) and at <strong>EMBL Symposium – AI and Biology</strong> (Heidelberg, Germany)</div></div>
+    <div class="timeline-item"><span class="timeline-year">2023</span><div class="timeline-content">Invited talk on “Machine Learning and Deep Learning for Metagenomic Data in Prediction of aGvHD” at <strong>The Barcelona Debates on the Human Microbiome</strong> (Barcelona, Spain)</div></div>
+    <div class="timeline-item"><span class="timeline-year">2023</span><div class="timeline-content">Presented an explainable ML model for prediction of e-faecium infection at <strong>IDWEEK</strong> (Boston, USA)</div></div>
+    <div class="timeline-item"><span class="timeline-year">2022</span><div class="timeline-content">Invited collaboration on “Machine Learning in Various Healthcare Projects” at <strong>Roche Research Camp</strong> (Paris, France)</div></div>
+    <div class="timeline-item"><span class="timeline-year">2022</span><div class="timeline-content">Presented “Machine Learning in Prediction of Plasma Leakage” at <strong>IDWEEK</strong> (Washington, DC, USA)</div></div>
+    <div class="timeline-item"><span class="timeline-year">2021</span><div class="timeline-content">Attended the <strong>Danish Bioinformatics Conference</strong> (Aalborg, Denmark)</div></div>
+    <div class="timeline-item"><span class="timeline-year">2019</span><div class="timeline-content">PhD Exchange at <strong>University Grenoble-Alpes, Doctoral School of Health, Cognition and Environmental Engineering</strong> (Grenoble, France)</div></div>
+    <div class="timeline-item"><span class="timeline-year">2018</span><div class="timeline-content">Presented on “Dynamics of Sitting during a Mentally Demanding Computer Task” at the <strong>Congress of the International Ergonomics Association</strong> (Florence, Italy)</div></div>
+    <div class="timeline-item"><span class="timeline-year">2018</span><div class="timeline-content">Presented “Early Detection of Fatigue Based on Heart Rate in Sedentary Computer Work” at <strong>PREMUS 2019</strong> (Florence, Italy)</div></div>
+    <div class="timeline-item"><span class="timeline-year">2017</span><div class="timeline-content">Presented “Mental Load on Oculometrics” at the <strong>European Medical and Biological Engineering Conference</strong> (Tampere, Finland)</div></div>
+    <div class="timeline-item"><span class="timeline-year">2013</span><div class="timeline-content">Presented “Individual’s Response Prediction to Proposed Questions Using Their Eye Movement Analysis” at the <strong>2nd Basic and Clinical Neuroscience Congress (BCNC)</strong> (Tehran, Iran)</div></div>
+    <div class="timeline-item"><span class="timeline-year">2012</span><div class="timeline-content">Presented “A Survey on Familiarity Effect on Spatial Dispersion of Gaze Pattern” at the <strong>1st Basic and Clinical Neuroscience Congress (BCNC)</strong> (Tehran, Iran)</div></div>
+    <div class="timeline-item"><span class="timeline-year">2012</span><div class="timeline-content">Presented “Reading Activity Recognition Using Electrical Signals Originated From Eye Movements in People's Daily Life Situations” at the <strong>19th Iranian Conference on Biomedical Engineering</strong> (Tehran, Iran)</div></div>
+  </div>
+</div>
+
+<style>
+.talks-timeline {
+  position: relative;
+  margin: 2em 0 3em 0;
+  padding-left: 1.5em;
+}
+.timeline-bar {
+  position: absolute;
+  left: 0.5em;
+  top: 0.5em;
+  bottom: 0.5em;
+  width: 4px;
+  background: linear-gradient(to bottom, #1a6ed8 0%, #2a3b4c 100%);
+  border-radius: 2px;
+  z-index: 0;
+}
+.timeline-list {
+  position: relative;
+  z-index: 1;
+}
+.timeline-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1.5em;
+  position: relative;
+}
+.timeline-year {
+  flex: 0 0 3.5em;
+  font-weight: bold;
+  color: #1a6ed8;
+  font-size: 1.1em;
+  margin-right: 1em;
+  position: relative;
+}
+.timeline-year:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: -1.1em;
+  top: 0.45em;
+  width: 0.9em;
+  height: 0.9em;
+  background: #fff;
+  border: 2px solid #1a6ed8;
+  border-radius: 50%;
+  z-index: 2;
+}
+.timeline-content {
+  background: #f8fafd;
+  border-radius: 8px;
+  padding: 0.7em 1.2em;
+  box-shadow: 0 1px 4px rgba(26,110,216,0.07);
+  font-size: 1em;
+  color: #2a3b4c;
+}
+@media (max-width: 600px) {
+  .talks-timeline { padding-left: 0.5em; }
+  .timeline-year { font-size: 0.98em; }
+  .timeline-content { font-size: 0.95em; padding: 0.5em 0.7em; }
+}
+</style>
+
+{% for post in site.talks reversed %}
+  {% include archive-single-talk.html %}
+{% endfor %}

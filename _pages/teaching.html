@@ -1,0 +1,104 @@
+---
+layout: archive
+title: "Teaching & Supervision"
+permalink: /teaching/
+author_profile: true
+---
+
+
+<div class="teaching-cards">
+  <div class="teaching-card">
+    <div class="teaching-title">AI/ML Mentor</div>
+    <div class="teaching-meta">Danish Data Science Academy <span class="teaching-date">2024–present</span></div>
+    <div class="teaching-desc">Mentored data science professionals in AI and machine learning applications, focusing on practical insights for industry use.</div>
+  </div>
+  <div class="teaching-card">
+    <div class="teaching-title">PhD Project Co-Supervision</div>
+    <div class="teaching-meta">Prognostic Agents from Gut Microbiome in CLL Patients – Copenhagen University <span class="teaching-date">2023–2024</span></div>
+  </div>
+  <div class="teaching-card">
+    <div class="teaching-title">PhD Course Co-Instructor</div>
+    <div class="teaching-meta">Introduction to Machine Learning in Biomedical Research – Copenhagen University <span class="teaching-date">2022–2023</span></div>
+  </div>
+  <div class="teaching-card">
+    <div class="teaching-title">MSc Project Course</div>
+    <div class="teaching-meta">Feature Engineering for Microbiome Data – CHIP/DTU <span class="teaching-date">2023</span></div>
+  </div>
+  <div class="teaching-card">
+    <div class="teaching-title">MSc & Undergraduate Courses</div>
+    <div class="teaching-meta">Analysis of Eye Movements Associated with Pain Stimuli – Aalborg University <span class="teaching-date">2018–2019</span></div>
+  </div>
+  <div class="teaching-card">
+    <div class="teaching-title">Fundamentals of Electrical Engineering</div>
+    <div class="teaching-meta">IUST <span class="teaching-date">2015–2016</span></div>
+  </div>
+  <div class="teaching-card">
+    <div class="teaching-title">Digital Electronics and Electronic Circuits Labs</div>
+    <div class="teaching-meta">Payam Nour University <span class="teaching-date">2015–2016</span></div>
+  </div>
+  <div class="teaching-card">
+    <div class="teaching-title">Workshops & Short Courses</div>
+    <div class="teaching-meta">Brain Mapping Using EEG and ERP – IBRO PhD Workshop, Shahid Beheshti University</div>
+  </div>
+  <div class="teaching-card">
+    <div class="teaching-title">Biosignal Acquisition Systems</div>
+    <div class="teaching-meta">EEG, EMG, ECG, and EOG – MSc Workshop, IUST</div>
+  </div>
+  <div class="teaching-card">
+    <div class="teaching-title">Pattern Recognition in Brain Signals during Sleep Stages</div>
+    <div class="teaching-meta">MSc Project, IUST</div>
+  </div>
+  <div class="teaching-card">
+    <div class="teaching-title">Application of Artificial Neural Networks in Mining Engineering</div>
+    <div class="teaching-meta">BSc Project, Azad University</div>
+  </div>
+</div>
+
+<style>
+.teaching-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5em;
+  margin: 2em 0 3em 0;
+}
+.teaching-card {
+  background: #f8fafd;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(26,110,216,0.07);
+  padding: 1.2em 1.5em 1em 1.5em;
+  min-width: 260px;
+  max-width: 370px;
+  flex: 1 1 320px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.5em;
+}
+.teaching-title {
+  font-size: 1.1em;
+  font-weight: 700;
+  color: #1a6ed8;
+  margin-bottom: 0.2em;
+}
+.teaching-meta {
+  font-size: 0.98em;
+  color: #2a3b4c;
+  margin-bottom: 0.3em;
+}
+.teaching-date {
+  font-size: 0.92em;
+  color: #888;
+  margin-left: 0.5em;
+}
+.teaching-desc {
+  font-size: 0.97em;
+  color: #444;
+}
+@media (max-width: 800px) {
+  .teaching-cards { flex-direction: column; gap: 1em; }
+  .teaching-card { max-width: 100%; min-width: 0; }
+}
+</style>
+
+{% for post in site.teaching reversed %}
+  {% include archive-single.html %}
+{% endfor %}
