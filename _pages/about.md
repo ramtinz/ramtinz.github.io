@@ -1,7 +1,10 @@
 ---
-permalink: /about/
-title: "About"
+permalink: /
+title: "Welcome"
 author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
 ---
 
 Welcome | Velkommen | ようこそ | 欢迎 | خوش آمدید
