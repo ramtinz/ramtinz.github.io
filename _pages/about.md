@@ -1,6 +1,10 @@
-```txt
+---
+permalink: /about/
+title: "About"
+author_profile: true
+---
+
 Welcome | Velkommen | ようこそ | 欢迎 | خوش آمدید
-```
 
 I am a biomedical engineer with a PhD from the [Department of Health Science and Technology, Aalborg University](https://www.sundhedsvidenskab.aau.dk/), with experience across academic research and industry. My work centers on applied machine learning and AI systems, with a focus on predictive modeling, interpretability, and building reliable solutions that move from research into production quality systems.
 
