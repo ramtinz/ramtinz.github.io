@@ -11,7 +11,7 @@ redirect_from:
 <p class="portfolio-eyebrow">Senior AI/ML Architect · Aeven · Copenhagen</p>
 <h1>From AI research to reliable systems.</h1>
 <p class="portfolio-lead">I bring together applied machine learning, AI architecture, and experience in regulated environments to turn promising models into useful systems.</p>
-<p>My current focus spans sovereign AI, AI-assisted development, agents, and foundation models beyond language. I joined Aeven in May as Senior AI/ML Architect.</p>
+<p>My current focus spans sovereign AI, AI-assisted development, agents, and foundation models beyond language. I also bring hands-on experience with observability, DevOps, Kubernetes, and the open-source tools around them. I joined Aeven in May as Senior AI/ML Architect.</p>
 <div class="portfolio-actions"><a href="/portfolio/">Explore my work →</a><a href="mailto:ramtin.zargari@gmail.com">Get in touch</a></div>
 </section>
 
@@ -21,6 +21,8 @@ redirect_from:
 <article class="portfolio-card"><h3>AI-assisted development</h3><p>Applying coding assistants with attention to review, validation, maintainability, and software quality.</p></article>
 <article class="portfolio-card"><h3>AI agents</h3><p>Working with the concepts behind tool use, workflow orchestration, and evaluation of agent behavior.</p></article>
 <article class="portfolio-card"><h3>Foundation models & evaluation</h3><p>Following models for time-series forecasting, anomaly detection, and tabular prediction, with an emphasis on application-specific evaluation.</p><p><a href="https://huggingface.co/spaces/TabArena/leaderboard">TabArena tabular benchmark →</a></p></article>
+<article class="portfolio-card"><h3>Observability & DevOps</h3><p>Hands-on experience with observability and DevOps practices, using open-source tooling to support monitoring, delivery, and reliable operation of systems.</p></article>
+<article class="portfolio-card"><h3>Kubernetes & open-source infrastructure</h3><p>Hands-on experience with Kubernetes and its surrounding open-source ecosystem, connecting infrastructure operations with the needs of AI and ML systems.</p></article>
 </div>
 
 <h2 id="work">Selected work</h2>
