@@ -1,33 +1,44 @@
 ---
 permalink: /
-title: "Welcome"
+title: "Ramtin Zargari Marandi"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-Welcome | Velkommen | ようこそ | 欢迎 | خوش آمدید
+<section class="portfolio-hero" aria-label="Introduction">
+<p class="portfolio-eyebrow">Senior AI/ML Architect · Aeven · Copenhagen</p>
+<h1>From AI research to reliable systems.</h1>
+<p class="portfolio-lead">I bring together applied machine learning, AI architecture, and experience in regulated environments to turn promising models into useful systems.</p>
+<p>My current focus spans sovereign AI, AI-assisted development, agents, and foundation models beyond language. I joined Aeven in May as Senior AI/ML Architect.</p>
+<div class="portfolio-actions"><a href="/portfolio/">Explore my work →</a><a href="mailto:ramtin.zargari@gmail.com">Get in touch</a></div>
+</section>
 
-I am a biomedical engineer with a PhD from the [Department of Health Science and Technology, Aalborg University](https://www.sundhedsvidenskab.aau.dk/), with experience across academic research and industry. My work centers on applied machine learning and AI systems, with a focus on predictive modeling, interpretability, and building reliable solutions that move from research into production quality systems.
+<h2 id="expertise">Current expertise</h2>
+<div class="portfolio-grid">
+<article class="portfolio-card"><h3>Sovereign infrastructure & AI</h3><p>Understanding control over data, infrastructure, and model dependencies—and how these choices shape AI architecture.</p></article>
+<article class="portfolio-card"><h3>AI-assisted development</h3><p>Applying coding assistants with attention to review, validation, maintainability, and software quality.</p></article>
+<article class="portfolio-card"><h3>AI agents</h3><p>Working with the concepts behind tool use, workflow orchestration, and evaluation of agent behavior.</p></article>
+<article class="portfolio-card"><h3>Foundation models & evaluation</h3><p>Following models for time-series forecasting, anomaly detection, and tabular prediction, with an emphasis on application-specific evaluation.</p><p><a href="https://huggingface.co/spaces/TabArena/leaderboard">TabArena tabular benchmark →</a></p></article>
+</div>
 
-During my postdoctoral work at the [Center of Excellence for Health, Immunity and Infections (CHIP)](https://chip.dk/), part of [Rigshospitalet](https://www.rigshospitalet.dk/) in Copenhagen, Denmark, I worked on personalized medicine, infectious diseases, and the human gut microbiome. I contributed to the development of predictive models for clinical outcomes, with emphasis on transparency and explainability through approaches such as SHAP, aiming to make complex models understandable and clinically meaningful.
+<h2 id="work">Selected work</h2>
+<div class="portfolio-grid">
+<article class="portfolio-card"><p class="portfolio-tag">Open-source · Clinical ML</p><h3>Medical AI Toolbox (MAIT)</h3><p>An open-source Python framework for developing and validating machine learning models in clinical research.</p><a href="/portfolio/">More about my work →</a></article>
+<article class="portfolio-card"><p class="portfolio-tag">Explainability · R</p><h3>ExplaineR</h3><p>An R package integrating SHAP-based interpretability for transparent and reproducible medical AI.</p><a href="/portfolio/">Explore selected projects →</a></article>
+<article class="portfolio-card"><p class="portfolio-tag">Industry · Production ML</p><h3>Automated claims AI</h3><p>Development of production ML pipelines for insurance claims processing across multiple European markets.</p></article>
+<article class="portfolio-card"><p class="portfolio-tag">Research · Human performance</p><h3>Fatigue & oculometrics</h3><p>Research on objective fatigue assessment using eye movement dynamics.</p><a href="/publications/">View publications →</a></article>
+</div>
 
-In industry, I have developed and maintained AI systems in regulated environments, focusing on scalable pipelines, monitoring, and reproducibility. More broadly, I am interested in intelligent systems that operate in complex domains, including healthcare, biological systems, and emerging frameworks based on large language models and agent-oriented AI.
+<h2 id="about">Research foundations. Industry experience.</h2>
 
----
 
-### Selected Work
 
-- **Medical AI Toolbox (MAIT)** — Open-source Python framework for developing and validating machine learning models in clinical research.
-- **ExplaineR (CRAN)** — R package integrating SHAP-based interpretability for transparent and reproducible medical AI.
-- **Automated Claims AI System** — Development of production quality ML pipelines for insurance claims processing across multiple European markets.
-- **Fatigue and oculometrics research** — Work on objective fatigue assessment using eye movement dynamics.
+My background is in biomedical engineering, with a PhD from Aalborg University. During my postdoctoral work at the Center of Excellence for Health, Immunity and Infections (CHIP) at Rigshospitalet, I worked on personalized medicine, infectious diseases, and the human gut microbiome, including predictive models for clinical outcomes and SHAP-based explanations.
 
-A full list of publications is available on [Google Scholar](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Ramtin+Zargari+Marandi&oq=).
+In industry, I have developed and maintained AI systems in regulated environments, focusing on scalable pipelines, monitoring, and reproducibility. This experience shapes how I assess new AI capabilities: through their reliability, transparency, and usefulness in practice.
 
----
+<h2 id="contact">Let's connect</h2>
 
-If you are looking for expertise in applied ML and AI, guidance on improving or modernizing existing models, technical leadership for engineering-driven initiatives, or collaboration in research, I would be glad to connect.
-
-You can reach me via LinkedIn, GitHub, or by email at ramtin.zargari [at] gmail.com.
+For conversations about AI/ML architecture, sovereign AI, AI-assisted development, agents, model evaluation, or applied research, reach me via [email](mailto:ramtin.zargari@gmail.com), [LinkedIn](https://www.linkedin.com/in/rzm/), or [GitHub](https://github.com/ramtinz).

@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Personal portfolio"
+title                    : "Ramtin Z. Marandi"
 title_separator          : "-"
 name                     : &name "Ramtin Zargari Marandi, PhD"
-description              : &description "personal description"
+description              : &description "Ramtin Zargari Marandi, PhD — Senior AI/ML Architect at Aeven. Applied machine learning, sovereign AI, agents, and foundation model evaluation."
 url                      : https://ramtinz.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "ramtinz/ramtinz.github.io"
@@ -24,7 +24,7 @@ author:
   avatar           : "profile.jpg"
   name             : "Ramtin Z. Marandi, PhD"
   pronouns         : "he/him"
-  bio              : "Biomedical scientist and engineer | AI/ML specialist"
+  bio              : "Senior AI/ML Architect at Aeven | Applied ML, sovereign AI & agents"
   location         : "Copenhagen, Denmark"
   linkedin         : rzm
   # uri              : "https://github.com/ramtinz"
