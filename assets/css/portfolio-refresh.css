@@ -5,7 +5,7 @@ body {font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; line-
 .page__content h2 {margin-top:2.4em; border-bottom:0; letter-spacing:-.025em;}
 .portfolio-hero {padding:1rem 0 2rem; border-bottom:1px solid #8895a644;}
 .portfolio-eyebrow {font-size:.72em!important; text-transform:uppercase; letter-spacing:.13em; font-weight:700; color:#317180;}
-.portfolio-hero h1 {font-size:clamp(2rem,4vw,3.3rem); line-height:1.12; letter-spacing:-.045em; margin:.4em 0;}
+.portfolio-hero h1 {font-size:clamp(1.65rem,2.6vw,2.3rem); line-height:1.12; letter-spacing:-.045em; margin:.4em 0;}
 .portfolio-lead {font-size:1.15em!important; max-width:42rem;}
 .portfolio-actions {display:flex; flex-wrap:wrap; gap:.8rem; margin-top:1.5rem;}
 .portfolio-actions a {display:inline-block; border:1px solid #8895a677; border-radius:6px; padding:.55rem 1rem; text-decoration:none; font-weight:600;}
