@@ -15,7 +15,7 @@ $indent-var                 : 1.3em;
 
 /* System typefaces */
 $serif                      : Georgia, Times, serif;
-$sans-serif                 : "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+$sans-serif                 : "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 $monospace                  : Monaco, Consolas, "Lucida Console", monospace;
 
 /* Sans serif typefaces */
@@ -41,7 +41,7 @@ $type-size-7                : 0.6875em; // ~11px
 $type-size-8                : 0.625em;  // ~10px
 
 $global-font-family         : $sans-serif;
-$header-font-family         : "IBM Plex Serif", Georgia, serif;
+$header-font-family         : $sans-serif;
 $caption-font-family        : $sans-serif;
 
 /* ==========================================================================
