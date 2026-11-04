@@ -46,3 +46,11 @@ strong,b {font-weight:600;}
 .pub-list em {font-style:normal;}
 .pub-note {font-size:.95em;line-height:1.7;margin:0 0 1.5em;padding:0;background:transparent;border:0;}
 .pub-note strong {font-weight:400;}
+
+.visual-exploration {border-top:1px solid #8895a644;margin-top:2.5rem;}
+.visual-credit,.visual-links {font-size:.8em!important;}
+.visual-demo {border:1px solid #8895a655;border-radius:8px;overflow:hidden;margin:1.2rem 0;}
+.visual-demo summary {cursor:pointer;padding:1rem;font-weight:600;}
+.visual-demo summary:focus-visible {outline:2px solid currentColor;outline-offset:-4px;}
+.visual-demo iframe {display:block;width:100%;height:620px;border:0;background:#fff;}
+@media(max-width:640px) {.visual-demo iframe {height:480px;}}

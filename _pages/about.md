@@ -34,6 +34,17 @@ redirect_from:
 <article class="portfolio-card"><p class="portfolio-tag">Research · Human performance</p><h3>Fatigue & oculometrics</h3><p>Research on objective fatigue assessment using eye movement dynamics.</p><a href="/publications/">View publications →</a></article>
 </div>
 
+<section class="visual-exploration" aria-labelledby="visual-exploration-title">
+<h2 id="visual-exploration-title">A visual look inside AI</h2>
+<p>Interactive visualizations offer another way to explore how models work. This external demo lets you draw a digit and inspect the activity of a convolutional neural network in 3D.</p>
+<p class="visual-credit">Created by <a href="https://adamharley.com/nn_vis/">Adam W. Harley</a>. Shared here as a visual learning resource.</p>
+<details class="visual-demo">
+<summary>Open the interactive 3D visualization</summary>
+<iframe loading="lazy" src="https://adamharley.com/nn_vis/cnn/3d.html" title="Adam Harley's interactive 3D convolutional neural network visualization" referrerpolicy="no-referrer" allowfullscreen></iframe>
+</details>
+<p class="visual-links"><a href="https://adamharley.com/nn_vis/cnn/3d.html" target="_blank" rel="noopener noreferrer">Explore in a full window ↗</a> · <a href="https://playground.tensorflow.org/" target="_blank" rel="noopener noreferrer">Try TensorFlow Playground ↗</a></p>
+</section>
+
 <h2 id="about">Research foundations. Industry experience.</h2>
 
 
