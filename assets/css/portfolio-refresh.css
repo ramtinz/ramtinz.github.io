@@ -35,3 +35,14 @@ html[data-theme="dark"] .portfolio-eyebrow {color:#83d5e5;}
 strong,b {font-weight:600;}
 .pub-heading {font-weight:500;}
 .portfolio-card {background:transparent;box-shadow:none;}
+
+/* Publications follow the same reading rhythm as the other pages. */
+.pub-section {margin:0 0 2.4em;padding:0;background:transparent;box-shadow:none;}
+.pub-heading {font-size:1.25em;font-weight:500;line-height:1.3;margin:2.4em 0 1em;letter-spacing:-.02em;}
+.pub-count {font-size:inherit;font-weight:400;color:inherit;}
+.pub-list {padding-left:1.4em;margin:0;}
+.pub-list li {font-size:.95em;line-height:1.7;margin-bottom:1.1em;}
+.pub-list strong,.pub-title {font-weight:400;color:inherit;}
+.pub-list em {font-style:normal;}
+.pub-note {font-size:.95em;line-height:1.7;margin:0 0 1.5em;padding:0;background:transparent;border:0;}
+.pub-note strong {font-weight:400;}
