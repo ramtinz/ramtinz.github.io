@@ -46,10 +46,8 @@ In industry, I have developed and maintained AI systems in regulated environment
 
 Alongside my technical work, I have contributed to open-source projects, published and reviewed scientific research, and advised and supervised researchers and technical specialists, including data scientists.
 
-I am open to board, scientific committee, and technical advisory roles where my experience across research, AI, and engineering can help shape decisions and technical direction.
+I am open to board, scientific committee, and technical advisory roles where my experience could be useful and where I can also learn from others. I value work that addresses a real need and has the potential to make a lasting contribution.
 
-I am also interested in co-founding a venture with complementary partners, exploring original ideas and building useful, differentiated products grounded in scientific and technical insight.
-
-If you are building a venture, forming an advisory group, or looking for a scientific or technical perspective, I would be glad to connect.
+I would also welcome conversations about co-founding a venture with complementary partners. For me, that starts with a worthwhile problem, a sound idea, and people willing to test it carefully and build something useful together.
 
 For conversations about AI/ML architecture, sovereign AI, AI-assisted development, agents, model evaluation, or applied research, reach me via [email](mailto:ramtin.zargari@gmail.com), [LinkedIn](https://www.linkedin.com/in/rzm/), or [GitHub](https://github.com/ramtinz).
