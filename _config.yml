@@ -21,7 +21,7 @@ repository               : "ramtinz/ramtinz.github.io"
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
-  avatar           : "profile-linkedin.png"
+  avatar           : "profile-current.jpeg"
   name             : "Ramtin Z. Marandi, PhD"
   pronouns         : "he/him"
   bio              : "Senior AI/ML Architect at Aeven | Applied ML, sovereign AI & agents"
