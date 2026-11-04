@@ -47,10 +47,24 @@ strong,b {font-weight:600;}
 .pub-note {font-size:.95em;line-height:1.7;margin:0 0 1.5em;padding:0;background:transparent;border:0;}
 .pub-note strong {font-weight:400;}
 
-.visual-exploration {border-top:1px solid #8895a644;margin-top:2.5rem;}
-.visual-credit,.visual-links {font-size:.8em!important;}
-.visual-demo {border:1px solid #8895a655;border-radius:8px;overflow:hidden;margin:1.2rem 0;}
-.visual-demo summary {cursor:pointer;padding:1rem;font-weight:600;}
-.visual-demo summary:focus-visible {outline:2px solid currentColor;outline-offset:-4px;}
-.visual-demo iframe {display:block;width:100%;height:620px;border:0;background:#fff;}
-@media(max-width:640px) {.visual-demo iframe {height:480px;}}
+
+/* A shared visual language: cells, networks, and orbital systems. */
+.portfolio-grid {position:relative;gap:1.3rem;}
+.portfolio-card {position:relative;overflow:visible;border-color:#648c963d;background:linear-gradient(145deg,#749eaa0b,transparent 65%);}
+.connection-art {display:block;width:100%;height:125px;margin:0 0 1.25rem;overflow:visible;color:#367c88;}
+html[data-theme="dark"] .connection-art {color:#87bec8;}
+.art-link {fill:none;stroke:currentColor;stroke-width:1;opacity:.45;}
+.cell-shell {fill:currentColor;fill-opacity:.04;stroke:currentColor;stroke-width:1;stroke-opacity:.45;}
+.art-node {fill:currentColor;opacity:.85;}
+.art-star {fill:currentColor;opacity:.3;}
+.portfolio-card::after {content:"";position:absolute;left:50%;bottom:-1.3rem;height:1.3rem;width:1px;background:#74a7b055;pointer-events:none;}
+.portfolio-card:nth-last-child(-n+2)::after {display:none;}
+.portfolio-card:hover {border-color:#74a7b088;}
+@media(prefers-reduced-motion:no-preference) {
+ .portfolio-card .art-node {animation:connection-breathe 6s ease-in-out infinite;transform-box:fill-box;transform-origin:center;}
+ .portfolio-card:nth-child(2n) .art-node {animation-delay:-3s;}
+ .orbital-art {animation:orbit-drift 14s ease-in-out infinite;transform-origin:160px 75px;}
+ @keyframes connection-breathe {50% {opacity:.45;transform:scale(.8);}}
+ @keyframes orbit-drift {50% {transform:rotate(12deg);}}
+}
+@media(max-width:640px) {.portfolio-card:nth-last-child(2)::after {display:block;}.connection-art {height:110px;}}
