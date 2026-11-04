@@ -8,14 +8,15 @@ redirect_from:
 ---
 
 <section class="portfolio-hero" aria-label="Introduction">
-<p class="portfolio-eyebrow">Senior AI/ML Architect · Aeven · Copenhagen</p>
-<h1>From AI research to reliable systems.</h1>
-<p class="portfolio-lead">I bring together applied machine learning, AI architecture, and experience in regulated environments to turn promising models into useful systems.</p>
-<p>My current focus spans sovereign AI, AI-assisted development, agents, and foundation models beyond language. I also bring hands-on experience with observability, DevOps, Kubernetes, and the open-source tools around them. I joined Aeven in May as Senior AI/ML Architect.</p>
+<h1>Science, engineering, and ideas into practice.</h1>
+<p class="portfolio-lead">I am a scientist and engineer with over 10 years of experience in Denmark across academic research, AI/ML, and software engineering.</p>
+<p>My work spans healthcare, life sciences, insurance, and technology, collaborating with international teams and stakeholders. I combine a foundation in engineering and scientific research with hands-on experience in AI/ML, software and platform architecture, and the systems that support them.</p>
+<p>Working across academia and industry has given me a broad perspective on the full lifecycle of data, software, and IT systems—from early research and design to deployment and long-term operation.</p>
 <div class="portfolio-actions"><a href="/portfolio/">Explore my work →</a><a href="mailto:ramtin.zargari@gmail.com">Get in touch</a></div>
 </section>
 
 <h2 id="expertise">Current expertise</h2>
+<p>I am currently a Senior AI/ML Architect at Aeven, which I joined in May. My recent work in cloud infrastructure and platform engineering complements my experience in AI/ML, helping me design, integrate, and operate models within larger systems.</p>
 <div class="portfolio-grid">
 <article class="portfolio-card"><h3>Sovereign infrastructure & AI</h3><p>Understanding control over data, infrastructure, and model dependencies—and how these choices shape AI architecture.</p></article>
 <article class="portfolio-card"><h3>AI-assisted development</h3><p>Applying coding assistants with attention to review, validation, maintainability, and software quality.</p></article>
@@ -41,6 +42,14 @@ My background is in biomedical engineering, with a PhD from Aalborg University. 
 
 In industry, I have developed and maintained AI systems in regulated environments, focusing on scalable pipelines, monitoring, and reproducibility. This experience shapes how I assess new AI capabilities: through their reliability, transparency, and usefulness in practice.
 
-<h2 id="contact">Let's connect</h2>
+<h2 id="contact">Advisory roles & new ventures</h2>
+
+Alongside my technical work, I have contributed to open-source projects, published and reviewed scientific research, and advised and supervised researchers and technical specialists, including data scientists.
+
+I am open to board, scientific committee, and technical advisory roles where my experience across research, AI, and engineering can help shape decisions and technical direction.
+
+I am also interested in co-founding a venture with complementary partners, exploring original ideas and building useful, differentiated products grounded in scientific and technical insight.
+
+If you are building a venture, forming an advisory group, or looking for a scientific or technical perspective, I would be glad to connect.
 
 For conversations about AI/ML architecture, sovereign AI, AI-assisted development, agents, model evaluation, or applied research, reach me via [email](mailto:ramtin.zargari@gmail.com), [LinkedIn](https://www.linkedin.com/in/rzm/), or [GitHub](https://github.com/ramtinz).
