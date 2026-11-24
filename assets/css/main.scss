@@ -40,3 +40,16 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+.site-visitor-stats {
+  width: fit-content;
+  margin-top: 1rem;
+  padding: .4rem .75rem;
+  border: 1px solid currentColor;
+  border-radius: 999px;
+  font-size: .75rem;
+  line-height: 1.5;
+}
+.site-visitor-stats > span,
+.site-visitor-stats > a { margin-right: .35rem; }
+.site-visitor-stats > a:last-child { margin-right: 0; }

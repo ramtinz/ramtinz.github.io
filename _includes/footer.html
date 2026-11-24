@@ -23,3 +23,25 @@
   &copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}, {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.<br />
   Site last updated {{ "now" | date: '%Y-%m-%d' %}}
 </div>
+
+{% if site.analytics.provider == "custom" and page.analytics != false %}
+<div class="site-visitor-stats" hidden>
+  <span aria-hidden="true">◉</span>
+  <span><strong id="site-view-count"></strong> site views</span>
+  <span aria-hidden="true">·</span>
+  <a href="https://ramtinz.goatcounter.com/">Visitor statistics</a>
+</div>
+<script>
+  fetch('https://ramtinz.goatcounter.com/counter/TOTAL.json')
+    .then(function (response) {
+      if (!response.ok) throw new Error('Counter unavailable');
+      return response.json();
+    })
+    .then(function (data) {
+      if (data.count === undefined) return;
+      document.getElementById('site-view-count').textContent = data.count;
+      document.querySelector('.site-visitor-stats').hidden = false;
+    })
+    .catch(function () {});
+</script>
+{% endif %}
